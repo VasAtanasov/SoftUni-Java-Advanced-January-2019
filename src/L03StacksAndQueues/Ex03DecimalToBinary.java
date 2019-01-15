@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class Ex03DecimalToBinaryConverter {
+public class Ex03DecimalToBinary {
     private static BufferedReader reader;
     private static Deque<Integer> binary;
     private static int number;
