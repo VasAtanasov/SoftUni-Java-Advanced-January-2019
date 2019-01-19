@@ -16,6 +16,7 @@ public class Ex07Crossfire {
         matrix = new ArrayList<>();
     }
 
+    @SuppressWarnings("Duplicates")
     public static void main(String[] args) throws IOException {
         getDimensions();
 
