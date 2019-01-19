@@ -3,7 +3,6 @@ package L05MultidimensionalArrays;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class Ex03IntersectionOfTwoMatrices {
     private static BufferedReader reader;
@@ -16,34 +15,31 @@ public class Ex03IntersectionOfTwoMatrices {
         int rows = Integer.parseInt(reader.readLine());
         int cols = Integer.parseInt(reader.readLine());
 
-        String[][] matrixOne = readMatrix(rows);
-        String[][] matrixTwo = readMatrix(rows);
+        char[][] matrixOne = readMatrix(rows);
+        char[][] matrixTwo = readMatrix(rows);
 
-        String[][] result = new String[rows][cols];
+
         for (int row = 0; row < rows; row++) {
-            Arrays.fill(result[row], "*");
-        }
-
-        for (int row = 0; row < matrixTwo.length; row++) {
-            for (int col = 0; col < matrixTwo[row].length; col++) {
-                if (matrixOne[row][col].equals(matrixTwo[row][col])) {
-                    result[row][col] = matrixOne[row][col];
+            for (int col = 0; col < cols; col++) {
+                if (matrixOne[row][col] == matrixTwo[row][col]) {
+                    System.out.print(matrixOne[row][col] + " ");
+                } else {
+                    System.out.print("* ");
                 }
             }
-        }
-
-        for (int row = 0; row < rows; row++) {
-            System.out.println(String.join(" ",result[row]));
+            System.out.println();
         }
     }
 
-    private static String[][] readMatrix(int rows) throws IOException {
-        String[][] matrixOne = new String[rows][];
+    private static char[][] readMatrix(int rows) throws IOException {
+        char[][] matrix = new char[rows][];
         for (int row = 0; row < rows; row++) {
             String[] inputCols = reader.readLine().split(" ");
-            matrixOne[row] = new String[inputCols.length];
-            System.arraycopy(inputCols, 0, matrixOne[row], 0, inputCols.length);
+            matrix[row] = new char[inputCols.length];
+            for (int col = 0; col < inputCols.length; col++) {
+                matrix[row][col] = inputCols[col].charAt(0);
+            }
         }
-        return matrixOne;
+        return matrix;
     }
 }
