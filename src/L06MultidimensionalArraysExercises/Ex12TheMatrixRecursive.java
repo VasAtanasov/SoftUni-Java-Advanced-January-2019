@@ -29,21 +29,22 @@ public class Ex12TheMatrixRecursive { // 100/100
 
         startChar = maze[starRow][starCol];
 
-        traversCell(starRow, starCol);
+        visitCell(starRow, starCol);
 
         printMatrix();
     }
 
-    private static void traversCell(int row, int col) {
+    private static void visitCell(int row, int col) {
         if (! inRange(row, col) || ! startChar.equals(maze[row][col])) {
             return;
         }
 
         maze[row][col] = fillChar;
-        traversCell(row + rowOffset[0], col + colOffset[0]);
-        traversCell(row + rowOffset[1], col + colOffset[1]);
-        traversCell(row + rowOffset[2], col + colOffset[2]);
-        traversCell(row + rowOffset[3], col + colOffset[3]);
+
+        visitCell(row + rowOffset[0], col + colOffset[0]);
+        visitCell(row + rowOffset[1], col + colOffset[1]);
+        visitCell(row + rowOffset[2], col + colOffset[2]);
+        visitCell(row + rowOffset[3], col + colOffset[3]);
     }
 
     private static void printMatrix() {
