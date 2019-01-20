@@ -3,9 +3,7 @@ package L06MultidimensionalArraysExercises;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.Deque;
 
 @SuppressWarnings("Duplicates")
 public class Ex12TheMatrixRecursive { // 100/100
@@ -13,7 +11,6 @@ public class Ex12TheMatrixRecursive { // 100/100
     private static String[][] maze;
     private static int[] rowOffset;
     private static int[] colOffset;
-    private static Deque<Integer> possibleMoves;
     private static String startChar;
     private static String fillChar;
 
@@ -21,7 +18,6 @@ public class Ex12TheMatrixRecursive { // 100/100
         reader = new BufferedReader(new InputStreamReader(System.in));
         rowOffset = new int[] {0, 0, - 1, 1};
         colOffset = new int[] {- 1, 1, 0, 0};
-        possibleMoves = new ArrayDeque<>();
     }
 
     public static void main(String[] args) throws IOException {
