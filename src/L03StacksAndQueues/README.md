@@ -70,13 +70,16 @@ Hints
 ### 4.	Matching Brackets
 We are given an arithmetical expression with brackets. Scan through the string and extract each sub-expression.
 Print the result back at the terminal.
+
 Examples
-Input	Output
-1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5	(2 + 3)
-(3 + 1)
-(2 - (2 + 3) * 4 / (3 + 1))
-(2 + 3) - (2 + 3)	(2 + 3)
-(2 + 3)
+
+|Input|Output|
+|:----|:-----|
+|1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5|(2 + 3)
+| |(3 + 1)|
+| |(2 - (2 + 3) * 4 / (3 + 1))|
+|(2 + 3) - (2 + 3)|(2 + 3)|
+| |(2 + 3)|
 Hints
 •	Use a stack, namely an ArrayDeque()
 •	Scan through the expression searching for brackets
