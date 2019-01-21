@@ -32,33 +32,42 @@ Hints
 -	Use pop(), when going back
 
 ### 2.	Simple Calculator
+
 Create a simple calculator that can evaluate simple expressions that will not hold any operator different from addition and subtraction. There will not be parentheses or operator precedence.
 Solve the problem using a Stack.
 
 Examples
-Input	Output
-2 + 5 + 10 - 2 - 1	14
-2 - 2 + 5	5
-Hints
-•	Use an ArrayDeque<>
-•	Consider using the add() method
-•	You can either 
-o	add the elements and then pop them out 
-o	or push them and reverse the stack
 
-3.	Decimal to Binary Converter
+|Input|Output|
+|:----|:-----|
+|2 + 5 + 10 - 2 - 1 | 14|
+|2 - 2 + 5|5|
+
+Hints
+-	Use an ArrayDeque<>
+-	Consider using the add() method
+-	You can either 
+     - add the elements and then pop them out 
+     - or push them and reverse the stack
+
+### 3.	Decimal to Binary Converter
 Create a simple program that can convert a decimal number to its binary representation. Implement an elegant solution using a Stack.
 Print the binary representation back at the terminal.
+
 Examples
-Input	Output
-10	1010
-1024	10000000000
+
+|Input|Output|
+|:----|:-----|
+|10|1010|
+1024|10000000000|
+
 Hints
-•	If the given number is 0, just print 0
-•	Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
- 
-•	When you are done dividing, pop all reminders from the stack, that is the binary representation
-4.	Matching Brackets
+-	If the given number is 0, just print 0
+-	Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
+
+-	When you are done dividing, pop all reminders from the stack, that is the binary representation
+
+### 4.	Matching Brackets
 We are given an arithmetical expression with brackets. Scan through the string and extract each sub-expression.
 Print the result back at the terminal.
 Examples
