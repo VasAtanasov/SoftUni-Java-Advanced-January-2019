@@ -1,7 +1,9 @@
-#Stacks and Queues - Lab
-This document defines the exercises for "Java Advanced" course @ Software University. Please submit your solutions (source code) of all below described problems in Judge.
-I.	Working with Stacks
-1.	Browser History
+# Stacks and Queues - Lab
+This document defines the exercises for "Java Advanced" course @ Software University. 
+Please submit your solutions (source code) of all below described problems in Judge.
+
+## I.	Working with Stacks
+### 1.	Browser History
 Write a program which takes 2 types of browser instructions:
 •	Normal navigation: a URL is set, given by a string
 •	The string "back" that sets the current URL to the last set URL
