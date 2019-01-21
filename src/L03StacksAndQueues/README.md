@@ -20,7 +20,7 @@ After each instruction the program should print the current URL. If the back ins
 |:-----|:-------|
 |https//softuni.bg/<br>back<br>https//softuni.bg/trainings/courses<br>back<br>https//softuni.bg/trainings/2056<br>back<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details<br>Home|https//softuni.bg/<br>no previous URLs<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/<br>https//softuni.bg/trainings/2056<br>https//softuni.bg/<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details|
 
-Hints
+### Hints
 -	Use ArrayDeque<>
 -	Use String to keep current page
 -	Use push(), when moving to next page
@@ -38,7 +38,7 @@ Solve the problem using a Stack.
 |2 + 5 + 10 - 2 - 1 | 14|
 |2 - 2 + 5|5|
 
-Hints
+### Hints
 -	Use an ArrayDeque<>
 -	Consider using the add() method
 -	You can either 
@@ -57,7 +57,7 @@ Print the binary representation back at the terminal.
 |10| 1010|
 1024| 10000000000|
 
-Hints
+## Hints
 -	If the given number is 0, just print 0
 -	Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
 -	When you are done dividing, pop all reminders from the stack, that is the binary representation
@@ -74,7 +74,7 @@ Print the result back at the terminal.
 |1 + (2 - (2 + 3) * 4 / (3 + 1)) * 5|(2 + 3)<br>(3 + 1)<br>(2 - (2 + 3) * 4 / (3 + 1))|
 |(2 + 3) - (2 + 3)|(2 + 3)<br>(2 + 3)|
 
-Hints
+### Hints
 -	Use a stack, namely an ArrayDeque()
 -	Scan through the expression searching for brackets
 -	If you find an opening bracket, push the index into the stack
@@ -94,7 +94,7 @@ The printer queue is a simple way to control the order of files sent to a printe
 |Lab.docx<br>cancel<br>cancel<br>Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java<br>cancel<br>print|Canceled Lab.docx<br>Printer is on standby<br>Canceled Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java|
 
 
-Hints
+### Hints
 -	Use an ArrayDeque<>
 -	Use offer(), when adding file
 -	Use pollFirst(), when printing file
@@ -147,7 +147,7 @@ Each forward instruction visits the next most-recent such URL. If a normal navig
 |https//softuni.bg/trainings/courses|https//softuni.bg/trainings/courses
 |Home||
 
-Hints
+### Hints
 - Use the solution from Browser History
 - Use ArrayDequeue<> as queue to keep the forward pages
 - Use clear() method to reset the forward pages
