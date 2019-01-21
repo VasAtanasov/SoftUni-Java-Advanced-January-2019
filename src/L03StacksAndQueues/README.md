@@ -14,7 +14,7 @@ Write a program which takes 2 types of browser instructions:
 After each instruction the program should print the current URL. If the back instruction can’t be executed, print 
 "no previous URLs". The input ends with "Home" command, then simply you have to stop the program.
 
-Examples
+### Examples
 
 |Input|	Output|
 |:-----|:-------|
@@ -31,7 +31,7 @@ Hints
 Create a simple calculator that can evaluate simple expressions that will not hold any operator different from addition and subtraction. There will not be parentheses or operator precedence.
 Solve the problem using a Stack.
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
@@ -50,7 +50,7 @@ Hints
 Create a simple program that can convert a decimal number to its binary representation. Implement an elegant solution using a Stack.
 Print the binary representation back at the terminal.
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
@@ -67,7 +67,7 @@ Hints
 We are given an arithmetical expression with brackets. Scan through the string and extract each sub-expression.
 Print the result back at the terminal.
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
@@ -87,6 +87,8 @@ Hints
 
 The printer queue is a simple way to control the order of files sent to a printer device. We know that a single printer can be shared between multiple devices. So to preserve the order of the files sent, we can use queue. Write down a program which takes filenames until "print" command is received. Then as output print the filenames in the order of printing. Some of the tasks may be canceled if you receive "cancel" you have to remove the first file to be printed. If there is no current file to be printed print "Printer is on standby".
 
+### Examples
+
 |Input|Output|
 |:----|:-----|
 |Lab.docx<br>cancel<br>cancel<br>Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java<br>cancel<br>print|Canceled Lab.docx<br>Printer is on standby<br>Canceled Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java|
@@ -102,7 +104,7 @@ Hints
 Hot potato is a game in which children form a circle and start passing a hot potato. The counting starts with the fist kid. Every nth toss the child left with the potato leaves the game. When a kid leaves the game, it passes the potato forward. This continues repeating until there is only one kid left. 
 Create a program that simulates the game of Hot Potato.  Print every kid that is removed from the circle. In the end, print the kid that is left last.
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
@@ -116,7 +118,7 @@ Rework the previous problem so that a child is removed only on a prime cycle (cy
 If a cycle is not prime, just print the child's name.
 As before, print the name of the child that is left last.
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
@@ -129,7 +131,7 @@ Extend "Browser History" with a "forward" instruction which visits URLs that wer
 Each forward instruction visits the next most-recent such URL. If a normal navigation happens, all potential forward URLs are removed until a new back instruction is given If the forward instruction can’t be executed, print 
 "no next URLs".
 
-Examples
+### Examples
 
 |Input|Output|
 |:----|:-----|
