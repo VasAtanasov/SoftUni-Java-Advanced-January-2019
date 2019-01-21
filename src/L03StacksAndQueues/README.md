@@ -80,15 +80,16 @@ Examples
 | |(2 - (2 + 3) * 4 / (3 + 1))|
 |(2 + 3) - (2 + 3)|(2 + 3)|
 | |(2 + 3)|
+
 Hints
-•	Use a stack, namely an ArrayDeque()
-•	Scan through the expression searching for brackets
-o	If you find an opening bracket, push the index into the stack
-o	If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket.
-o	Use the current and the popped index to extract the sub-expression
+-	Use a stack, namely an ArrayDeque()
+-	Scan through the expression searching for brackets
+-	If you find an opening bracket, push the index into the stack
+     -	If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket.
+     -	Use the current and the popped index to extract the sub-expression
  
-II.	Working with Queues
-5.	Printer Queue
+## II.	Working with Queues
+###5.	Printer Queue
 The printer queue is a simple way to control the order of files sent to a printer device. We know that a single printer can be shared between multiple devices. So to preserve the order of the files sent, we can use queue. Write down a program which takes filenames until "print" command is received. Then as output print the filenames in the order of printing. Some of the tasks may be canceled if you receive "cancel" you have to remove the first file to be printed. If there is no current file to be printed print "Printer is on standby".
 Examples
 Input	Output
