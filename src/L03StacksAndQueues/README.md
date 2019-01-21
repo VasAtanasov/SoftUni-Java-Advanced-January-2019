@@ -18,15 +18,7 @@ Examples
 
 |Input|	Output|
 |:-----|:-------|
-|https//softuni.bg/|https//softuni.bg/
-|back|no previous URLs
-|https//softuni.bg/trainings/courses|https//softuni.bg/trainings/courses
-|back|https//softuni.bg/
-|https//softuni.bg/trainings/2056|https//softuni.bg/trainings/2056
-|back|https//softuni.bg/
-|https//softuni.bg/trainings/live|https//softuni.bg/trainings/live
-|https//softuni.bg/trainings/live/details|https//softuni.bg/trainings/live/details
-|Home|
+|https//softuni.bg/<br>back<br>https//softuni.bg/trainings/courses<br>back<br>https//softuni.bg/trainings/2056<br>back<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details<br>Home|https//softuni.bg/<br>no previous URLs<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/<br>https//softuni.bg/trainings/2056<br>https//softuni.bg/<br>https//softuni.bg/trainings/live<br>https//softuni.bg/trainings/live/details|
 
 Hints
 -	Use ArrayDeque<>
@@ -97,14 +89,8 @@ The printer queue is a simple way to control the order of files sent to a printe
 
 |Input|Output|
 |:----|:-----|
-|Lab.docx|
-|cancel|Canceled Lab.docx|
-|cancel|Printer is on standby|
-|Presentation.pptx|Canceled Presentation.pptx|
-|NoteNothing.txt|NoteNothing.txt|
-|SomeCode.java|SomeCode.java|
-|cancel||
-|print||
+|Lab.docx<br>cancel<br>cancel<br>Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java<br>cancel<br>print|Canceled Lab.docx<br>Printer is on standby<br>Canceled Presentation.pptx<br>NoteNothing.txt<br>SomeCode.java|
+
 
 Hints
 -	Use an ArrayDeque<>
