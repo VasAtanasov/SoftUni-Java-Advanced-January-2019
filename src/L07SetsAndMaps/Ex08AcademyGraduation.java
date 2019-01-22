@@ -31,32 +31,34 @@ public class Ex08AcademyGraduation {
 
         students.values().forEach(System.out::println);
     }
-}
 
-class Student {
-    private String name;
-    private List<Double> grades;
+    private static class Student {
+        private String name;
+        private List<Double> grades;
 
-    Student(String name) {
-        this.name = name;
-        this.grades = new ArrayList<>();
-    }
-
-    void addGrades(List<Double> grades) {
-        this.grades.addAll(grades);
-    }
-
-    private double getAverage() {
-        double sum = 0.0;
-        for (Double grade : this.grades) {
-            sum += grade;
+        Student(String name) {
+            this.name = name;
+            this.grades = new ArrayList<>();
         }
-        return sum / grades.size();
 
-    }
+        void addGrades(List<Double> grades) {
+            this.grades.addAll(grades);
+        }
 
-    @Override
-    public String toString() {
-        return String.format("%s is graduated with %s", this.name, this.getAverage());
+        private double getAverage() {
+            double sum = 0.0;
+            for (Double grade : this.grades) {
+                sum += grade;
+            }
+            return sum / grades.size();
+
+        }
+
+        @Override
+        public String toString() {
+            return String.format("%s is graduated with %s", this.name, this.getAverage());
+        }
     }
 }
+
+
