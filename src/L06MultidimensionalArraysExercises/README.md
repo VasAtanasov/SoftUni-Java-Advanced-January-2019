@@ -5,7 +5,7 @@ This document defines the exercises for "Java Advanced" course @ Software Univer
 ## **Matrices:**
 
 <details>
-<summary>1. Fill the Matrix
+<summary><b>1. Fill the Matrix</b>
 </summary>
 <p>Filling a matrix in the regular way (top to bottom and left to right) is boring. 
 Write two methods that fill a matrix of size N x N in two different patterns.<p>
@@ -47,13 +47,15 @@ Write two methods that fill a matrix of size N x N in two different patterns.<p>
 <li>Make a different method for each pattern</li>
 <li>Make a method for printing the matrix</li>
 </ul>
-<p> Solution: <a href="./Ex01FillTheMatrix.java"</a>Ex01FillTheMatrix.java</p>
+<p><b>Solution: <a href="./Ex01FillTheMatrix.java">Ex01FillTheMatrix.java</a></b></p>
 </details>
 
-### **2. Matrix of Palindromes**
+<details>
+<summary><b>2. Matrix of Palindromes</b>
+</summary>
 
 Write a program to generate the following matrix of palindromes of 3 letters with r rows and c columns like the one in the examples below.
-- Rows define the first and the last letter: row 0  ‘a’, row 1  ‘b’, row 2  ‘c’, …
+- Rows define the first and the last letter: row 0 -> ‘a’, row 1 -> ‘b’, row 2 -> ‘c’, …
 - Columns + rows define the middle letter: 
   - column 0, row 0 -> ‘a’, column 1, row 0 -> ‘b’, column 2, row 0 -> ‘c’, …
   - column 0, row 1 -> ‘b’, column 1, row 1 -> ‘c’, column 2, row 1 -> ‘d’, …
@@ -88,7 +90,11 @@ Write a program to generate the following matrix of palindromes of 3 letters wit
 - Print the matrix row by row in a loop.
 - Don’t forget to pack everything in methods.
 
-### **3. Diagonal Difference**
+</details>
+
+<details>
+<summary><b>3. Diagonal Difference</b>
+</summary>
 
 Write a program that finds the difference between the sums of the square matrix diagonals (absolute value).
 
@@ -112,7 +118,10 @@ Input|Output|Comments|
 - The primary diagonal holds all cells {row, col} where row == col == i.
 - The secondary diagonal holds all cells {row, col} where row == i and col == n-1-i.
 
-### **4. Maximal Sum**
+</details>
+
+<details>
+<summary><b>4. Maximal Sum</b></summary>
 
 Write a program that reads a rectangular integer matrix of size N x M and finds in it the square 3 x 3 that has maximal sum of its elements. 
 
@@ -129,7 +138,10 @@ Input|Output|Comments|
 |:-----|:-------|:-------|
 |4 5<br>1 5 5 2 4<br>2 1 4 14 3<br>3 7 11 2 8<br>4 8 12 16 4|Sum = 75<br>1 4 14<br>7 11 2<br>8 12 16|![](../../resources/MultidimensionalArraysExercises/image4.png)|	 
 
-### **5. Matrix shuffling**
+</details>
+
+<details>
+<summary><b>5. Matrix shuffling</b></summary>
 
 Write a program which reads a string matrix from the console and performs certain operations with its elements. User input is provided in a similar way like in the problems above – first you read the dimensions and then the data. 
 Your program should then receive commands in format: "swap row1 col1 row2c col2" where row1, row2, col1, col2 are coordinates in the matrix. In order for a command to be valid, it should start with the "swap" keyword along with four valid coordinates (no more, no less). You should swap the values at the given coordinates (cell [row1, col1] with cell [row2, col2]) and print the matrix at each step (thus you'll be able to check if the operation was performed correctly). 
@@ -146,7 +158,10 @@ Input|Output|
 
 - Think about Exception Handling 
 
-### **6. String Matrix Rotation**
+</details>
+
+<details>
+<summary><b>6. String Matrix Rotation</b></summary>
 
 You are given a sequence of text lines. Assume these text lines form a matrix of characters (pad the missing positions with spaces to build a rectangular matrix). Write a program to rotate the matrix by 90, 180, 270, 360, … degrees. Print the result at the console as sequence of strings after receiving the “END” command.
 
@@ -156,48 +171,56 @@ You are given a sequence of text lines. Assume these text lines form a matrix of
 | --- | --- | --- | --- |
 |hello<br>softuni<br>exam<br>END<br>![](../../resources/MultidimensionalArraysExercises/image8.png)|![](../../resources/MultidimensionalArraysExercises/image5.png)|![](../../resources/MultidimensionalArraysExercises/image6.png)|![](../../resources/MultidimensionalArraysExercises/image7.png)|
 
-Input
+### **Input**
+
 The input is read from the console:
-•	The first line holds a command in format "Rotate(X)" where X are the degrees of the requested rotation.
-•	The next lines contain the lines of the matrix for rotation.
-•	The input ends with the command "END".
+- The first line holds a command in format "Rotate(X)" where X are the degrees of the requested rotation.
+- The next lines contain the lines of the matrix for rotation.
+- The input ends with the command "END".
+
 The input data will always be valid and in the format described. There is no need to check it explicitly.
-Output
+
+### **Output**
+
 Print at the console the rotated matrix as a sequence of text lines.
-Constraints
-•	The rotation degrees is positive integer in the range [0…90000], where degrees is multiple of 90.
-•	The number of matrix lines is in the range [1…1 000].
-•	The matrix lines are strings of length 1 … 1 000.
-•	Allowed working time: 0.2 seconds. Allowed memory: 16 MB.
-Examples
-Input	Output		Input	Output		Input	Output
-Rotate(90)
-hello
-softuni
-exam
-END	esh
-xoe
-afl
-mtl
- uo
- n 
- i 		Rotate(180)
-hello
-softuni
-exam
-END	   maxe
-inutfos
-  olleh		Rotate(270)
-hello
-softuni
-exam
-END	 i 
- n 
-ou 
-ltm
-lfa
-eox
-hse
+
+### **Constraints**
+- The rotation degrees is positive integer in the range [0…90000], where degrees is multiple of 90.
+- The number of matrix lines is in the range [1…1 000].
+- The matrix lines are strings of length 1 … 1 000.
+- Allowed working time: 0.2 seconds. Allowed memory: 16 MB.
+
+### **Examples**
+
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rotate(90)<br>hello<br>softuni<br>exam<br>END</td>
+<td>esh<br>xoe<br>afl<br>mtl<br>&nbsp;uo<br>&nbsp;n&nbsp;<br>&nbsp;i&nbsp;</td>
+<td>Rotate(180)<br>hello<br>softuni<br>exam<br>END</td>
+<td>&nbsp;&nbsp;&nbsp;maxe<br>inutfos<br>&nbsp;&nbsp;olleh</td>
+<td>Rotate(270)<br>hello<br>softuni<br>exam<br>END</td>
+<td>&nbsp;i&nbsp;<br>&nbsp;n&nbsp;<br>ou&nbsp;<br>ltm<br>lfa<br>eox<br>hse</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
 
 Input	Output		Input	Output		Input	Output
 Rotate(720)
@@ -216,6 +239,8 @@ js
 exam
 END	js
 exam
+
+</details>
 
 7.	Crossfire 
 You will receive two integers which represent the dimensions of a matrix. Then, you must fill the matrix with increasing integers starting from 1, and continuing on every row, like this:
