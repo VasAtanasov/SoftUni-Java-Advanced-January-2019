@@ -2,13 +2,13 @@
 
 This document defines the exercises for "Java Advanced" course @ Software University. Please submit your solutions (source code) of all below described problems in Judge.
 
-
 ## **Matrices:**
 
 <details>
-<summary><h1>1. Fill the Matrix</h1></summary>
-Filling a matrix in the regular way (top to bottom and left to right) is boring. Write two methods that fill a
-matrix of size N x N in two different patterns.
+<summary><h3>1. Fill the Matrix</h3>
+</summary>
+<p>Filling a matrix in the regular way (top to bottom and left to right) is boring. 
+Write two methods that fill a matrix of size N x N in two different patterns.<p>
 <h3>Examples</h3>
 <table>
 <thead>
