@@ -11,7 +11,7 @@ Filling a matrix in the regular way (top to bottom and left to right) is boring.
 
 |Pattern A|Pattern B|
 |:-----|:-------|
-|![alt text](../../resources/MultidimensionalArraysExercises/image1.png)|![alt text](../../resources/MultidimensionalArraysExercises/image2.png)|
+|![](../../resources/MultidimensionalArraysExercises/image1.png)|![](../../resources/MultidimensionalArraysExercises/image2.png)|
 
 
 |Input|	Output|
@@ -54,6 +54,9 @@ Input|	Output|
 ### **3. Diagonal Difference**
 
 Write a program that finds the difference between the sums of the square matrix diagonals (absolute value).
+
+![](../../resources/MultidimensionalArraysExercises/image3.png)
+
  
 ### **Input**
 
