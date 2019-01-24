@@ -2,27 +2,52 @@
 
 This document defines the exercises for "Java Advanced" course @ Software University. Please submit your solutions (source code) of all below described problems in Judge.
 
+
 ## **Matrices:**
 
-### **1. Fill the Matrix**
-Filling a matrix in the regular way (top to bottom and left to right) is boring. Write two methods that fill a matrix of size N x N in two different patterns.
+<details>
+<summary>1. Fill the Matrix
+</summary>
 
-### **Examples**
-
-|Pattern A|Pattern B|
-|:-----|:-------|
-|![](../../resources/MultidimensionalArraysExercises/image1.png)|![](../../resources/MultidimensionalArraysExercises/image2.png)|
-
-
-|Input|	Output|
-|:-----|:-------|
-|3, A|1 4 7<br>2 5 8<br>3 6 9|
-|3, B|1 6 7<br>2 5 8<br>3 4 9|
-
-### **Hints**
-
-- Make a different method for each pattern
-- Make a method for printing the matrix
+Filling a matrix in the regular way (top to bottom and left to right) is boring. Write two methods that fill a
+matrix of size N x N in two different patterns.
+<h3>Examples</h3>
+<table>
+<thead>
+<tr>
+<th>Pattern A</th>
+<th>Pattern B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3, A</td>
+<td>1 4 7<br>2 5 8<br>3 6 9</td>
+</tr>
+<tr>
+<td>3, B</td>
+<td>1 6 7<br>2 5 8<br>3 4 9</td>
+</tr>
+</tbody>
+</table>
+<h3>Hints</h3>
+<ul>
+<li>Make a different method for each pattern</li>
+<li>Make a method for printing the matrix</li>
+</ul>
+</details>
 
 ### **2. Matrix of Palindromes**
 
@@ -40,10 +65,21 @@ Write a program to generate the following matrix of palindromes of 3 letters wit
 
 ### **Examples**
 
-Input|	Output|
-|:-----|:-------|
-|4 6|aaa aba aca ada aea afa<br>bbb bcb bdb beb bfb bgb<br>ccc cdc cec cfc cgc chc<br>ddd ded dfd dgd dhd did|
-|3 2|aaa aba<br>bbb bcb<br>ccc cdc|
+<table>
+  <thead>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>4 6</td>
+    <td><p>aaa aba aca ada aea afa<br>bbb bcb bdb beb bfb bgb<br>ccc cdc cec cfc cgc chc<br>ddd ded dfd dgd dhd did<p></td>
+  </tr>
+  <tr>
+    <td>3 2</td>
+    <td>aaa aba<br>bbb bcb<br>ccc cdc</td>
+  </tr>
+</table>
 
 ### **Hints**
 
@@ -118,7 +154,7 @@ You are given a sequence of text lines. Assume these text lines form a matrix of
 |Input|Rotate(90)|Rotate(180)|Rotate(270)|
 | --- | --- | --- | --- |
 |hello<br>softuni<br>exam<br>END<br>![](../../resources/MultidimensionalArraysExercises/image8.png)|![](../../resources/MultidimensionalArraysExercises/image5.png)|![](../../resources/MultidimensionalArraysExercises/image6.png)|![](../../resources/MultidimensionalArraysExercises/image7.png)|
- 			
+
 Input
 The input is read from the console:
 •	The first line holds a command in format "Rotate(X)" where X are the degrees of the requested rotation.
