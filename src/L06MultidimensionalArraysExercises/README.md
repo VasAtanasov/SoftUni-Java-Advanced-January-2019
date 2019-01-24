@@ -47,6 +47,7 @@ Write two methods that fill a matrix of size N x N in two different patterns.<p>
 <li>Make a different method for each pattern</li>
 <li>Make a method for printing the matrix</li>
 </ul>
+<p> Solution: <a href="/Ex01FillTheMatrix.java"</a>Ex01FillTheMatrix.java</p>
 </details>
 
 ### **2. Matrix of Palindromes**
