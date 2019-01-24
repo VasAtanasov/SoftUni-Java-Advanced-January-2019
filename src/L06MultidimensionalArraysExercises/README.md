@@ -11,7 +11,7 @@ Filling a matrix in the regular way (top to bottom and left to right) is boring.
 
 |Pattern A|Pattern B|
 |:-----|:-------|
-|![alt text](../../resources/MultidimensionalArraysExercises/image1.png =100x200)|![alt text](../../resources/MultidimensionalArraysExercises/image2.png)|
+|![alt text](../../resources/MultidimensionalArraysExercises/image1.png)|![alt text](../../resources/MultidimensionalArraysExercises/image2.png)|
 
 
 |Input|	Output|
