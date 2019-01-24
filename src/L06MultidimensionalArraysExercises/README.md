@@ -5,7 +5,7 @@ This document defines the exercises for "Java Advanced" course @ Software Univer
 ## **Matrices:**
 
 <details>
-<summary><h3>1. Fill the Matrix</h3>
+<summary>1. Fill the Matrix
 </summary>
 <p>Filling a matrix in the regular way (top to bottom and left to right) is boring. 
 Write two methods that fill a matrix of size N x N in two different patterns.<p>
