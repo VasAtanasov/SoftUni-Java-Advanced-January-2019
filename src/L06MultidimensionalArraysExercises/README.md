@@ -6,9 +6,7 @@ This document defines the exercises for "Java Advanced" course @ Software Univer
 ## **Matrices:**
 
 <details>
-<summary>1. Fill the Matrix
-</summary>
-
+<summary><h1>1. Fill the Matrix</h1></summary>
 Filling a matrix in the regular way (top to bottom and left to right) is boring. Write two methods that fill a
 matrix of size N x N in two different patterns.
 <h3>Examples</h3>
@@ -21,6 +19,8 @@ matrix of size N x N in two different patterns.
 </thead>
 <tbody>
 <tr>
+<td><img src="../../resources/MultidimensionalArraysExercises/image1.png" alt=""></td>
+<td><img src="../../resources/MultidimensionalArraysExercises/image2.png" alt=""></td>
 </tr>
 </tbody>
 </table>
