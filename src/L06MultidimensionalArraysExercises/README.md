@@ -19,8 +19,8 @@ Write two methods that fill a matrix of size N x N in two different patterns.<p>
 </thead>
 <tbody>
 <tr>
-<td><img src="../../resources/MultidimensionalArraysExercises/image1.png" alt=""></td>
-<td><img src="../../resources/MultidimensionalArraysExercises/image2.png" alt=""></td>
+<td><img src="../../resources/L06MultidimensionalArraysExercises/image1.png" alt=""></td>
+<td><img src="../../resources/L06MultidimensionalArraysExercises/image2.png" alt=""></td>
 </tr>
 </tbody>
 </table>
@@ -90,6 +90,8 @@ Write a program to generate the following matrix of palindromes of 3 letters wit
 - Print the matrix row by row in a loop.
 - Don’t forget to pack everything in methods.
 
+<p><b>Solution: <a href="./Ex02MatrixPalindromes.java">Ex02MatrixPalindromes.java</a></b></p>
+
 </details>
 
 <details>
@@ -98,7 +100,7 @@ Write a program to generate the following matrix of palindromes of 3 letters wit
 
 Write a program that finds the difference between the sums of the square matrix diagonals (absolute value).
 
-![](../../resources/MultidimensionalArraysExercises/image3.png)
+![](../../resources/L06MultidimensionalArraysExercises/image3.png)
 
  
 ### **Input**
@@ -118,6 +120,8 @@ Input|Output|Comments|
 - The primary diagonal holds all cells {row, col} where row == col == i.
 - The secondary diagonal holds all cells {row, col} where row == i and col == n-1-i.
 
+<p><b>Solution: <a href="./Ex03DiagonalDifference.java">Ex03DiagonalDifference.java</a></b></p>
+
 </details>
 
 <details>
@@ -136,7 +140,9 @@ Print the elements of the 3 x 3 square as a matrix, along with their sum. See th
 
 Input|Output|Comments|
 |:-----|:-------|:-------|
-|4 5<br>1 5 5 2 4<br>2 1 4 14 3<br>3 7 11 2 8<br>4 8 12 16 4|Sum = 75<br>1 4 14<br>7 11 2<br>8 12 16|![](../../resources/MultidimensionalArraysExercises/image4.png)|	 
+|4 5<br>1 5 5 2 4<br>2 1 4 14 3<br>3 7 11 2 8<br>4 8 12 16 4|Sum = 75<br>1 4 14<br>7 11 2<br>8 12 16|![](../../resources/L06MultidimensionalArraysExercises/image4.png)|	 
+
+<p><b>Solution: <a href="./Ex04MaximalSum.java">Ex04MaximalSum.java</a></b></p>
 
 </details>
 
@@ -158,6 +164,8 @@ Input|Output|
 
 - Think about Exception Handling 
 
+<p><b>Solution: <a href="./Ex05MatrixShuffling.java">Ex05MatrixShuffling.java</a></b></p>
+
 </details>
 
 <details>
@@ -169,7 +177,7 @@ You are given a sequence of text lines. Assume these text lines form a matrix of
 
 |Input|Rotate(90)|Rotate(180)|Rotate(270)|
 | --- | --- | --- | --- |
-|hello<br>softuni<br>exam<br>END<br>![](../../resources/MultidimensionalArraysExercises/image8.png)|![](../../resources/MultidimensionalArraysExercises/image5.png)|![](../../resources/MultidimensionalArraysExercises/image6.png)|![](../../resources/MultidimensionalArraysExercises/image7.png)|
+|hello<br>softuni<br>exam<br>END<br>![](../../resources/L06MultidimensionalArraysExercises/image8.png)|![](../../resources/L06MultidimensionalArraysExercises/image5.png)|![](../../resources/L06MultidimensionalArraysExercises/image6.png)|![](../../resources/L06MultidimensionalArraysExercises/image7.png)|
 
 ### **Input**
 
@@ -215,88 +223,66 @@ Print at the console the rotated matrix as a sequence of text lines.
 </tbody>
 </table>
 
-
-
-
-
-
-
-
-Input	Output		Input	Output		Input	Output
-Rotate(720)
-js
-exam
-END	js
-exam
-		Rotate(810)
-js
-exam
-END	ej
-xs
-a
-m		Rotate(0)
-js
-exam
-END	js
-exam
-
 </details>
 
-7.	Crossfire 
-You will receive two integers which represent the dimensions of a matrix. Then, you must fill the matrix with increasing integers starting from 1, and continuing on every row, like this:
-first row: 1, 2, 3, …, n
-second row: n + 1, n + 2, n + 3, …, n + n
-third row: 2 * n + 1, 2 * n + 2, …, 2 * n + n
+<p><b>Solution: <a href="./Ex06StingMatrixRotation.java">Ex06StingMatrixRotation.java</a></b></p>
+
+<details>
+<summary><b>7.	Crossfire </b></summary>
+
+You will receive two integers which represent the dimensions of a matrix. Then, you must fill the matrix with increasing integers starting from 1, and continuing on every row, like this:<br>
+first row: 1, 2, 3, …, n<br>
+second row: n + 1, n + 2, n + 3, …, n + n<br>
+third row: 2 * n + 1, 2 * n + 2, …, 2 * n + n<br>
 You will also receive several commands in the form of 3 integers separated by a space. Those 3 integers will represent a row in the matrix, a column and a radius. You must then destroy the cells which correspond to those arguments cross-like.
 Destroying a cell means that, that cell becomes completely nonexistent in the matrix. Destroying cells cross-like means that you form a cross figure with center point - equal to the cell with coordinates – the given row and column, and lines with length equal to the given radius. See the examples for more info. 
 The input ends when you receive the command “Nuke it from orbit”. When that happens, you must print what has remained from the initial matrix.
-Input
-•	On the first line you will receive the dimensions of the matrix. You must then fill the matrix according to those dimensions
-•	On the next several lines you will begin receiving 3 integers separated by a single space, which represent the row, col and radius. You must then destroy cells according to those coordinates
-•	When you receive the command “Nuke it from orbit” the input ends
-Output
-•	The output is simple. You must print what is left from the matrix
-•	Every row must be printed on a new line and every column of a row - separated by a space
-Constraints
-•	The dimensions of the matrix will be integers in the range [2, 100]
-•	The given rows and columns will be valid integers in the range [-231 + 1, 231 - 1]
-•	 The radius will be in range [0, 231 - 1]
-•	Allowed time/memory: 250ms/16MB
-Examples
-Input	Output	Comment
-5 5
-3 3 2
-4 3 2
-Nuke it from orbit	1 2 3 4 5
-6 7 8 10
-11 12 13
-16
-21	Initial matrix:
-1  2  3  4  5
-6  7  8  9  10
-11 12 13 14 15
-16 17 18 19 20
-21 22 23 24 25
-Result from first destruction:
-1  2  3  4  5
-6  7  8  10
-11 12 13 15
-16           
-21 22 23 25
-Result from second destruction:
-1  2  3  4  5
-6  7  8  10
-11 12 13
-16
-21
 
-5 5
-4 4 4
-Nuke it from orbit	1 2 3 4
-6 7 8 9
-11 12 13 14
-16	7 18 19	
+### **Input**
 
+- On the first line you will receive the dimensions of the matrix. You must then fill the matrix according to those dimensions
+- On the next several lines you will begin receiving 3 integers separated by a single space, which represent the row, col and radius. You must then destroy cells according to those coordinates
+- When you receive the command “Nuke it from orbit” the input ends
+
+### **Output**
+
+- The output is simple. You must print what is left from the matrix
+- Every row must be printed on a new line and every column of a row - separated by a space
+
+### **Constraints*
+
+- The dimensions of the matrix will be integers in the range [2, 100]
+- The given rows and columns will be valid integers in the range [-231 + 1, 231 - 1]
+- The radius will be in range [0, 231 - 1]
+- Allowed time/memory: 250ms/16MB
+
+### **Examples**
+
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 5<br>3 3 2<br>4 3 2<br>Nuke it from orbit</td>
+<td>1 2 3 4 5<br>6 7 8 10<br>11 12 13<br>16<br>21</td>
+<td>Initial matrix:<br>1  2  3  4  5<br>6  7  8  9  10<br>11 12 13 14 15<br>16 17 18 19 20<br>21 22 23 24 25<br>Result from first destruction:<br>1  2  3  4  5<br>6  7  8  10<br>11 12 13 15<br>16           <br>21 22 23 25<br>Result from second destruction:<br>1  2  3  4  5<br>6  7  8  10<br>11 12 13<br>16<br>21</td>
+</tr>
+<tr>
+<td>5 5<br>4 4 4<br>Nuke it from orbit</td>
+<td>1 2 3 4<br>6 7 8 9<br>11 12 13 14<br>&nbsp;&nbsp;16 7 18 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Solution: <a href="./Ex07Crossfire.java">Ex07Crossfire.java</a></b></p>
+
+</details>
 
 8.	The Heigan Dance
 At last, level 80. And what do level eighties do? Go raiding. This is where you are now – trying not to be wiped by the famous dance boss, Heigan the Unclean. The fight is pretty straightforward - dance around the Plague Clouds and Eruptions, and you’ll be just fine.
