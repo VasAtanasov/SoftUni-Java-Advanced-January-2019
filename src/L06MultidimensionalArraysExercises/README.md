@@ -88,9 +88,9 @@ Print the elements of the 3 x 3 square as a matrix, along with their sum. See th
 
 ### **Examples**
 
-Input|Output|
-|:-----|:-------|
-|4 5<br>1 5 5 2 4<br>2 1 4 14 3<br>3 7 11 2 8<br>4 8 12 16 4|Sum = 75<br>1 4 14<br>7 11 2<br>8 12 16|	 
+Input|Output|Comments|
+|:-----|:-------|:-------|
+|4 5<br>1 5 5 2 4<br>2 1 4 14 3<br>3 7 11 2 8<br>4 8 12 16 4|Sum = 75<br>1 4 14<br>7 11 2<br>8 12 16|![](../../resources/MultidimensionalArraysExercises/image4.png)|	 
 
 ### **5. Matrix shuffling**
 
@@ -109,15 +109,15 @@ Input|Output|
 
 - Think about Exception Handling 
 
-6.	 String Matrix Rotation
+### **6. String Matrix Rotation**
+
 You are given a sequence of text lines. Assume these text lines form a matrix of characters (pad the missing positions with spaces to build a rectangular matrix). Write a program to rotate the matrix by 90, 180, 270, 360, … degrees. Print the result at the console as sequence of strings after receiving the “END” command.
 
-Examples
-Input	Rotate(90)	Rotate(180)	Rotate(270)
-hello
-softuni
-exam
-END	 	 	 
+### **Examples**
+
+|Input|Rotate(90)|Rotate(180)|Rotate(270)|
+| --- | --- | --- | --- |
+|hello<br>softuni<br>exam<br>END<br>![](../../resources/MultidimensionalArraysExercises/image8.png)|![](../../resources/MultidimensionalArraysExercises/image5.png)|![](../../resources/MultidimensionalArraysExercises/image6.png)|![](../../resources/MultidimensionalArraysExercises/image7.png)|
  			
 Input
 The input is read from the console:
