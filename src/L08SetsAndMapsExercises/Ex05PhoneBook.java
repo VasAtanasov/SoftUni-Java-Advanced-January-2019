@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Ex04PhoneBook {
+public class Ex05PhoneBook {
     private static BufferedReader reader;
     private static Map<String, String> phoneBook;
 
