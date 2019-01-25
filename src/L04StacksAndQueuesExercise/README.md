@@ -147,6 +147,9 @@ However, this will never end and in a few seconds a Stack Overflow Exception is 
 For the nth Fibonacci number, we calculate the N-1st and the N-2nd number, but for the calculation of N-1st number we calculate the N-1-1st(N-2nd) and the N-1-2nd number, so we have a lot of repeated calculations.
 If you want to figure out how to skip those unnecessary calculations, you can search for a technique called memoization. 
 
+![](../../resources/L04StacksAndQueuesExercise/image1.png)
+
+
 ### 8.*Simple Text Editor
 
 You are given an empty text. Your task is to implement 4 types of commands related to manipulating the text:
@@ -216,3 +219,5 @@ You are given N plants in a garden. Each of these plants has been added with som
 |Input|	Output|Comments|
 |:---|:-----|:-------|
 |7<br>6 5 8 4 7 10 9|2|Initially all plants are alive.<br>Plants = {(6, 1), (5, 2), (8, 3), (4, 4), (7, 5), (10, 6), (9, 7)}<br>Plants[k] = (i, j) => jth plant has pesticide amount = i.<br>After the 1st day, 4 plants remain as plants 3, 5, and 6 die.<br>Plants = {(6, 1), (5, 2), (4, 4), (9, 7)}<br>After the 2nd day, 3 plants survive as plant 7 dies. Plants = {(6, 1), (5, 2), (4, 4)}<br>After the 3rd day, 3 plants survive and no more plants die.<br>Plants = {(6, 1), (5, 2), (4, 4)}<br>After the 2nd day the plants stop dying.|
+
+<p><b>Document with tasks description: <a href="../../resources/L04StacksAndQueuesExercise/01. Java-Advanced-Stacks-and-Queues-Exercises.docx">01. Java-Advanced-Stacks-and-Queues-Exercises.docx</a></b></p>
