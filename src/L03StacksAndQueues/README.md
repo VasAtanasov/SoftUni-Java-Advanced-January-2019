@@ -133,22 +133,26 @@ Each forward instruction visits the next most-recent such URL. If a normal navig
 
 ### Examples
 
-|Input|Output|
-|:----|:-----|
-|forward|no next URLs
-|https//softuni.bg/|https//softuni.bg/
-|https//softuni.bg/trainings/courses|https//softuni.bg/trainings/courses
-|back|https//softuni.bg/
-|forward|https//softuni.bg/trainings/courses
-|https//softuni.bg/trainings/2056|https//softuni.bg/trainings/2056
-|back|https//softuni.bg/trainings/courses
-|forward|https//softuni.bg/trainings/2056
-|forward|no next URLs
-|https//softuni.bg/trainings/courses|https//softuni.bg/trainings/courses
-|Home||
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>forward<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>back<br>forward<br>https//softuni.bg/trainings/2056<br>back<br>forward<br>forward<br>https//softuni.bg/trainings/courses<br>Home</td>
+<td>no next URLs<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/trainings/2056<br>https//softuni.bg/trainings/courses<br>https//softuni.bg/trainings/2056<br>no next URLs<br>https//softuni.bg/trainings/courses</td>
+</tr>
+</tbody>
+</table>
 
 ### Hints
+
 - Use the solution from Browser History
 - Use ArrayDequeue<> as queue to keep the forward pages
 - Use clear() method to reset the forward pages
 - Use addFirst() when adding page to the forward pages
+
+<p><b>Document with tasks description: <a href="../../resources/L03StacksAndQueues/01. Java-Advanced-Stacks-and-Queues-Lab.docx">01. Java-Advanced-Stacks-and-Queues-Lab.docx</a></b></p>
