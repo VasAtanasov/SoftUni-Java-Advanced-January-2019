@@ -443,121 +443,126 @@ Finally, print the final state of the lair with every row on a separate line. On
 
 </details>
 
-11.	 Reverse Matrix Diagonals
+<details>
+<summary><b>11.	 Reverse Matrix Diagonals</b></summary>
+
+
 You are given a matrix (2D array) of integers. You have to print the matrix diagonal but in reversed order. Print each diagonal on new line.
 
-Input
-On the first line, single integer the number R of rows in the matrix. On each of the next R lines, C numbers separated by single spaces. Note that R and C may have different values. 
-Output
-The output should consist of R lines, each consisting of exactly C characters, separated by spaces, representing the matrix diagonals reversed.
-Constraints
-All the integers will be in the range [1….1000]
-Examples
-Example Input	Expected Output
-3 4
-21 20 18 15
-19 17 14 12
-16 13 11 10	10
-11 12
-13 14 15
-16 17 18
-19 20
-21
-1 3
-3 2 1	1
-2
-3
-3 3
-18 17 15
-16 14 12
-13 11 10	10
-11 12
-13 14 15
-16 17
-18
+### **Input**
 
-12.*** The Matrix
+On the first line, single integer the number R of rows in the matrix. On each of the next R lines, C numbers separated by single spaces. Note that R and C may have different values. 
+
+### **Output**
+
+The output should consist of R lines, each consisting of exactly C characters, separated by spaces, representing the matrix diagonals reversed.
+
+### **Constraints**
+
+All the integers will be in the range [1….1000]
+
+### **Examples**
+
+<table>
+<thead>
+<tr>
+<th>Example Input</th>
+<th>Expected Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3 4<br>21 20 18 15<br>19 17 14 12<br>16 13 11 10</td>
+<td>10<br>11 12<br>13 14 15<br>16 17 18<br>19 20<br>21</td>
+</tr>
+<tr>
+<td>1 3<br>3 2 1</td>
+<td>1<br>2<br>3</td>
+</tr>
+</tr>
+<tr>
+<td>3 3<br>18 17 15<br>16 14 12<br>13 11 10</td>
+<td>10<br>11 12<br>13 14 15<br>16 17<br>18</td>
+</tr>
+</tbody>
+</table>
+
+<p><b>Solution: <a href="./Ex11ReverseMatrixDiagonals.java">Ex11ReverseMatrixDiagonals.java</a></b></p>
+
+</details>
+
+<details>
+<summary><b>12.*** The Matrix</b></summary>
+
 You are given a matrix (2D array) of lowercase alphanumeric characters (a-z, 0-9), a starting position – defined by a start row startRow and a start column startCol – and a filling symbol fillChar. Let’s call the symbol originally at startRow and startCol the startChar. Write a program, which, starting from the symbol at startRow and startCol, changes to fillChar every symbol in the matrix which:
-•	is equal to startChar AND
-•	can be reached from startChar by going up (row – 1), down (row + 1), left (col – 1) and right (col + 1) and “stepping” ONLY on symbols equal startChar 
+- is equal to startChar AND
+- can be reached from startChar by going up (row – 1), down (row + 1), left (col – 1) and right (col + 1) and “stepping” ONLY on symbols equal startChar 
+
 So, you basically start from startRow and startCol and can move either by changing the row OR column (not both at once, i.e. you can’t go diagonally) by 1, and can only go to positions which have the startChar written on them. Once you find all those positions, you change them to fillChar. 
 In other words, you need to implement something like the Fill tool in MS Paint, but for a 2D char array instead of a bitmap.
-Input
+
+### **Input**
+
 On the first line, two integers will be entered – the number R of rows and number C of columns.
 On each of the next R lines, C characters separated by single spaces will be entered – the symbols of the Rth row of the matrix, starting from the 0th column and ending at the C-1 column.
 On the next line, a single character – the fillChar – will be entered.
 On the last line, two integers – startRow and startCol – separated by a single space, will be entered.
-Output
+
+### **Output**
+
 The output should consist of R lines, each consisting of exactly C characters, NOT SEPARATED by spaces, representing the matrix after the fill operation has been finished.
-Constraints
-0 < R, C < 20 
-0 <= startRow < R 
+
+### **Constraints**
+
+0 < R, C < 20<br>
+0 <= startRow < R<br>
 0 <= startCol < C
+
 All symbols in the input matrix will be lowercase alphanumerics (a-z, 0-9). The fillChar will also be alphanumeric and lowercase.
 The total running time of your program should be no more than 0.1s
 The total memory allowed for use by your program is 5MB
-Examples
-Example Input	Expected Output
-5 3
-a a a
-a a a
-a b a
-a b a
-a b a
-x
-0 0	xxx
-xxx
-xbx
-xbx
-xbx
-5 3
-a a a
-a a a
-a b a
-a b a
-a b a
-x
-2 1	aaa
-aaa
-axa
-axa
-axa
-5 6
-o o 1 1 o o
-o 1 o o 1 o
-1 o o o o 1
-o 1 o o 1 o
-o o 1 1 o o
-3
-2 1	oo11oo
-o1331o
-133331
-o1331o
-oo11oo
-5 6
-o o o o o o
-o o o 1 o o
-o o 1 o 1 1
-o 1 1 w 1 o
-1 o o o o o
-z
-4 1	oooooo
-ooo1oo
-oo1o11
-o11w1z
-1zzzzz
-5 6
-o 1 o o 1 o
-o 1 o o 1 o
-o 1 1 1 1 o
-o 1 o w 1 o
-o o o o o o
-z
-4 0	z1oo1z
-z1oo1z
-z1111z
-z1zw1z
-zzzzzz
 
-Hints
+### **Examples**
+
+<table>
+<thead>
+<tr>
+<th>Example Input</th>
+<th>Expected Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 3<br>a a a<br>a a a<br>a b a<br>a b a<br>a b a<br>x<br>0 0</td>
+<td>xxx<br>xxx<br>xbx<br>xbx<br>xbx</td>
+</tr>
+<tr>
+<td>5 3<br>a a a<br>a a a<br>a b a<br>a b a<br>a b a<br>x<br>2 1</td>
+<td>aaa<br>aaa<br>axa<br>axa<br>axa</td>
+</tr>
+</tr>
+<tr>
+<td>5 6<br>o o 1 1 o o<br>o 1 o o 1 o<br>1 o o o o 1<br>o 1 o o 1 o<br>o o 1 1 o o<br>3<br>2 1</td>
+<td>oo11oo<br>o1331o<br>133331<br>o1331o<br>oo11oo</td>
+</tr>
+<tr>
+<td>5 6<br>o o o o o o<br>o o o 1 o o<br>o o 1 o 1 1<br>o 1 1 w 1 o<br>1 o o o o o<br>z<br>4 1</td>
+<td>oooooo<br>ooo1oo<br>oo1o11<br>o11w1z<br>1zzzzz</td>
+</tr>
+<tr>
+<td>5 6<br>o 1 o o 1 o<br>o 1 o o 1 o<br>o 1 1 1 1 o<br>o 1 o w 1 o<br>o o o o o o<br>z<br>4 0</td>
+<td>z1oo1z<br>z1oo1z<br>z1111z<br>z1zw1z<br>zzzzzz</td>
+</tr>
+</tbody>
+</table>
+
+### **Hints**
+
 For some of the tests you can solve the problem with naive approach, however complete solution can be obtained by using Stack, Queue, DFS or BFS – go search on the internet. 
+
+<p><b>Solution: <a href="./Ex12TheMatrix.java">Ex12TheMatrix.java</a></b></p>
+<p><b>Solution: <a href="./Ex12TheMatrixRecursive.java">Ex12TheMatrixRecursive.java</a></b></p>
+
+</details>
+
+<p><b>Document with tasks description: <a href="./02. Java-Advanced-MultidimensionalArrays-Exercises.docx">02. Java-Advanced-MultidimensionalArrays-Exercises.docx</a></b></p>
