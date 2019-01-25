@@ -26,6 +26,8 @@ After each instruction the program should print the current URL. If the back ins
 -	Use push(), when moving to next page
 -	Use pop(), when going back
 
+<p><b>Solution: <a href="./Ex01BrowserHistory.java">Ex01BrowserHistory.java</a></b></p>
+
 ### 2.	Simple Calculator
 
 Create a simple calculator that can evaluate simple expressions that will not hold any operator different from addition and subtraction. There will not be parentheses or operator precedence.
@@ -45,6 +47,8 @@ Solve the problem using a Stack.
      - add the elements and then pop them out 
      - or push them and reverse the stack
 
+<p><b>Solution: <a href="./Ex02SimpleCalculator.java">Ex02SimpleCalculator.java</a></b></p>
+
 ### 3.	Decimal to Binary Converter
 
 Create a simple program that can convert a decimal number to its binary representation. Implement an elegant solution using a Stack.
@@ -58,9 +62,13 @@ Print the binary representation back at the terminal.
 1024| 10000000000|
 
 ## Hints
+
 -	If the given number is 0, just print 0
 -	Else, while the number is greater than zero, divide it by 2 and push the reminder into the stack
 -	When you are done dividing, pop all reminders from the stack, that is the binary representation
+
+<p><b>Solution: <a href="./Ex03DecimalToBinary.java">Ex03DecimalToBinary.java</a></b></p>
+<p><b>Solution: <a href="./Ex03DecimalToBinaryRecursion.java">Ex03DecimalToBinaryRecursion.java</a></b></p>
 
 ### 4.	Matching Brackets
 
@@ -75,11 +83,14 @@ Print the result back at the terminal.
 |(2 + 3) - (2 + 3)|(2 + 3)<br>(2 + 3)|
 
 ### Hints
+
 -	Use a stack, namely an ArrayDeque()
 -	Scan through the expression searching for brackets
 -	If you find an opening bracket, push the index into the stack
      -	If you find a closing bracket pop the topmost element from the stack. This is the index of the opening bracket.
      -	Use the current and the popped index to extract the sub-expression
+     
+<p><b>Solution: <a href="./Ex04MatchingBrackets.java">Ex04MatchingBrackets.java</a></b></p>
  
 ## II.	Working with Queues
 
@@ -95,9 +106,12 @@ The printer queue is a simple way to control the order of files sent to a printe
 
 
 ### Hints
+
 -	Use an ArrayDeque<>
 -	Use offer(), when adding file
 -	Use pollFirst(), when printing file
+
+<p><b>Solution: <a href="./Ex05PrinterQueue.java">Ex05PrinterQueue.java</a></b></p>
 
 ### 6.	Hot Potato
 
@@ -112,6 +126,8 @@ Create a program that simulates the game of Hot Potato.  Print every kid that is
 |Gosho Pesho Misho Stefan Krasi<br>10|Removed Krasi<br>Removed Pesho<br>Removed Misho<br>Removed Gosho<br>Last is Stefan|
 |Gosho Pesho Misho Stefan Krasi<br>1|Removed Gosho<br>Removed Pesho<br>Removed Misho<br>Removed Stefan<br>Last is Krasi|
 
+<p><b>Solution: <a href="./Ex06HotPotato.java">Ex06HotPotato.java</a></b></p>
+
 ### 7.	Math Potato
 
 Rework the previous problem so that a child is removed only on a prime cycle (cycles start from 1)
@@ -124,6 +140,8 @@ As before, print the name of the child that is left last.
 |:----|:-----|
 |Mimi Pepi Toshko<br>2|Removed Pepi<br>Prime Mimi<br>Prime Toshko<br>Removed Mimi<br>Last is Toshko|
 |Gosho Pesho Misho Stefan Krasi<br>10|Removed Krasi<br>Prime Pesho<br>Prime Misho<br>Removed Stefan<br>Prime Gosho<br>Removed Gosho<br>Prime Misho<br>Removed Pesho<br>Last is Misho|
+
+<p><b>Solution: <a href="./Ex07MathPotato.java">Ex07MathPotato.java</a></b></p>
 
 ### 8.	Browser History Upgrade
 
@@ -154,5 +172,7 @@ Each forward instruction visits the next most-recent such URL. If a normal navig
 - Use ArrayDequeue<> as queue to keep the forward pages
 - Use clear() method to reset the forward pages
 - Use addFirst() when adding page to the forward pages
+
+<p><b>Solution: <a href="./Ex08BrowserHistory.java">Ex08BrowserHistory.java</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/L03StacksAndQueues/01. Java-Advanced-Stacks-and-Queues-Lab.docx">01. Java-Advanced-Stacks-and-Queues-Lab.docx</a></b></p>

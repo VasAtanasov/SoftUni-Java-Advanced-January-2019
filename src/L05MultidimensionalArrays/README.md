@@ -17,6 +17,17 @@ Print equal if the matrices match, and not equal if they don’t match.
 |:-----|:-------|
 |2 3<br>1 2 3<br>2 1 3<br>2 3<br>1 2 3<br>2 1 3|equal|
 |2 3<br>1 2 3<br>4 5 6<br>2 2<br>1 3<br>4 5|not equal|
+
+Read matrix:
+
+![](../../resources/L05MultidimensionalArrays/image1.png)
+
+Compare method:
+
+![](../../resources/L05MultidimensionalArrays/image2.png)
+
+<p><b>Solution: <a href="./Ex01CompareMatrices.java">Ex01CompareMatrices.java</a></b></p>
+
  
 ### 2. Positions Of
 
@@ -35,6 +46,13 @@ If the number does not appear in the matrix, print not found
 
 ### Hint:
 
+1. Read matrix – look Problem 01
+2. Find position:
+
+![](../../resources/L05MultidimensionalArrays/image3.png)
+
+<p><b>Solution: <a href="./Ex02PositionOf.java">Ex02PositionOf.java</a></b></p>
+
 ### 3. Intersection of Two Matrices
 
 Write a program that reads two char matrices (A[][] and B[][]) of the same order M * N and prints third matrix C[][] which is filled with the intersecting elements of A and B, otherwise set the element to '*'. On the first two lines you receive M and N, then on 2 * M lines N characters – the matrices elements. 
@@ -45,6 +63,9 @@ The matrix elements may be any ASCII char except '*'.
 |Input|	Output|
 |:-----|:-------|
 |3<br>4<br>a b c d<br>a b c d<br>a b c d<br>k b c k<br>a b g d<br>a k c d|* b c *<br>a b * d<br>a * c d|
+
+<p><b>Solution: <a href="./Ex03IntersectionOfTwoMatrices.java">Ex03IntersectionOfTwoMatrices.java</a></b></p>
+
 
 ### 4. Sum Matrix Elements
 
@@ -59,6 +80,12 @@ On the first line you will get the dimensions of the matrix in format {rows, col
 |Input|Output|
 |:-----|:-------|
 |3, 6<br>7, 1, 3, 3, 2, 1<br>1, 3, 9, 8, 5, 6<br>4, 6, 7, 9, 1, 0|3<br>6<br>76|
+
+### Hint:
+
+![](../../resources/L05MultidimensionalArrays/image4.png)
+
+<p><b>Solution: <a href="./Ex04SumMatrixElements.java">Ex04SumMatrixElements.java</a></b></p>
  
 ### 5. Maximum Sum of 2x2 Submatrix
 
@@ -72,6 +99,9 @@ On the first line you will get the dimensions of the matrix in format {rows, col
 |3, 6<br>7, 1, 3, 3, 2, 1<br>1, 3, 9, 8, 5, 6<br>4, 6, 7, 9, 1, 0|9 8<br>7 9<br>33|
 |2, 4<br>10, 11, 12, 13<br>14, 15, 16, 17|12 13<br>16 17<br>58|
 
+<p><b>Solution: <a href="./Ex05MaximumSumOf2x2SubMatrix.java">Ex05MaximumSumOf2x2SubMatrix.java</a></b></p>
+
+
 ### 6.	Print Diagonals of Square Matrix
 
 Write a program that reads a matrix from the console. Then print the diagonals. The matrix will always be square. On the first line you read a single integer N the matrix size. Then on each line N elements. The first diagonal should always start with the element at the first row and col, the second diagonal should start with the element at the last row and first col.
@@ -82,6 +112,8 @@ Write a program that reads a matrix from the console. Then print the diagonals. 
 |:-----|:-------|
 |3<br>1 2 3<br>1 2 3<br>1 2 3|1 2 3<br>1 2 3|
 |4<br>1 2 3 2<br>1 1 2 4<br>1 2 1 4<br>2 2 3 1|1 1 1 1<br>2 2 2 2|
+
+<p><b>Solution: <a href="./Ex06PrintDiagonals.java">Ex06PrintDiagonals.java</a></b></p>
 
 ### 7.** Find The Real Queen
 
@@ -94,6 +126,8 @@ Write a program that reads (8 x 8) matrix of characters from the console. The ma
 |p a p a p a p a<br>p a p a p a p a<br>p a q a p a q a<br>p a p a p a p a<br>p a p q p a p a<br>p a p a p a p a<br>p a q a p a q a<br>p a p a p a p a|4 3|
 |1 q q q 1 q q q<br>q 1 q q 1 q q 1<br>q q 1 q 1 q 1 q<br>q q q 1 1 1 q q<br>1 1 1 1 q 1 1 1<br>q q q 1 1 1 q q<br>q q 1 q 1 q 1 q<br>q 1 q q 1 q q 1|4 4|
 
+<p><b>Solution: <a href="./Ex07FindTheRealQueen.java">Ex07FindTheRealQueen.java</a></b></p>
+
 ### 8. Wrong Measurements
 
 You will be given the rows of a matrix. Then the matrix itself. Inside this matrix there are mistaken values which need to be replaced you will receive the wrong value at the last line. Those values should be replaced with the sum of the nearest elements in the four directions up, down, left and right, but only if they are valid values. At the end you have to print the fixed measurements. 
@@ -104,3 +138,7 @@ You will be given the rows of a matrix. Then the matrix itself. Inside this matr
 |:-----|:-------|
 |3<br>1 2 4<br>4 6 7<br>8 9 4<br>1 0|1 2 9<br>15 6 7<br>8 9 16|
 |3<br>1 2 4 4<br>4 6 4 3<br>8 9 4 2<br>1 0|1 2 2 3<br>15 6 6 3<br>8 9 9 2|
+
+<p><b>Solution: <a href="./Ex08WrongMeasurements.java">Ex08WrongMeasurements.java</a></b></p>
+
+<p><b>Document with tasks description: <a href="../../resources/L05MultidimensionalArrays/02. Java-Advanced-MultidimensionalArrays-Lab.docx">02. Java-Advanced-MultidimensionalArrays-Lab.docx</a></b></p>

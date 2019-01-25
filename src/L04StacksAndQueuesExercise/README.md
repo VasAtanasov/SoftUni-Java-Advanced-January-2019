@@ -16,6 +16,8 @@ Examples:
 |1 2 3 4 5|5 4 3 2 1|
 |1|1|
 
+<p><b>Solution: <a href="./Ex01ReverseNumbersWithStack.java">Ex01ReverseNumbersWithStack.java</a></b></p>
+
 ### 2.	Basic Stack Operations
 
 You will be given an integer N representing the number of elements to push onto the stack, 
@@ -40,6 +42,8 @@ If it’s not, print the smallest element currently present in the stack.
 |5 2 13<br>1 13 45 32 4|true|We have to push 5 elements. Then we pop 2 of them.<br>Finally, we have to check whether 13 is present in the stack. Since it is we print true.|
 |4 1 666<br>420 69 13 666|13|Pop one element (666) and then check if 666 is present in the stack.<br>It's not, so print the smallest element (13)|
 
+<p><b>Solution: <a href="./Ex02BasicStackOperations.java">Ex02BasicStackOperations.java</a></b></p>
+
 ### 3.	Maximum Element
 
 You have an empty sequence, and you will be given N commands. Each command is one of the following types:
@@ -53,6 +57,7 @@ You have an empty sequence, and you will be given N commands. Each command is on
 - The next N lines contain commands. All commands will be valid and in the format described
 - The element X will be in range 1 ≤ X ≤ 109
 - The type of the command will be in range 1 ≤ Type ≤ 3
+
 ### Output
 
 - For each command of type "3", print the maximum element in the stack on a new line.
@@ -62,6 +67,9 @@ You have an empty sequence, and you will be given N commands. Each command is on
 |Input|	Output|Comments|
 |:---|:-----|:-------|
 |9<br>1 97<br>2<br>1 20<br>2<br>1 26<br>1 20<br>3<br>1 91<br>3|26 91|9 commands<br>Push 97<br>Pop an element<br>Push 20<br>Pop an element<br>Push 26<br>Push 20<br>Print the maximum element (26)<br>Push 91<br>Print the maximum element (91)|
+
+<p><b>Solution: <a href="./Ex03MaximumElement.java">Ex03MaximumElement.java</a></b></p>
+
 
 ### 4.	Basic Queue Operations
 
@@ -74,6 +82,9 @@ You will be given an integer N representing the number of elements to enqueue (a
 |5 2 32<br>1 13 45 32 4|true|We have to push 5 elements.<br>Then we pop 2 of them. <br>Finally, we have to check whether 13 is present in the stack. Since it is we print true.|
 |4 1 666<br>666 69 13 420|13||
 |3 3 90<br>90 90 90|0||	
+
+
+<p><b>Solution: <a href="./Ex04BasicQueueOperations.java">Ex04BasicQueueOperations.java</a></b></p>
 
 ### 5.	Robotics
 
@@ -94,6 +105,8 @@ Examples
 |:-----|:-------|
 |ROB-15;SS2-10;NX8000-3<br>8:00:00<br>detail<br>glass<br>wood<br>apple<br>End|ROB - detail [08:00:01]<br>SS2 - glass [08:00:02]<br>NX8000 - wood [08:00:03]<br>NX8000 - apple [08:00:06]|
 |ROB-60<br>7:59:59<br>detail<br>glass<br>wood<br>sock<br>End|ROB - detail [08:00:00]<br>ROB - sock [08:01:00]<br>ROB - wood [08:02:00]<br>ROB - glass [08:03:00]|
+
+<p><b>Solution: <a href="./Ex05Robotics.java">Ex05Robotics.java</a></b></p>
 
 ### 6.	Balanced Parentheses
 
@@ -118,6 +131,8 @@ Given a sequence consisting of parentheses, determine whether the expression is 
 |{[()]}|YES|
 |{[(])}|NO|
 |{{[[(())]]}}|YES|
+
+<p><b>Solution: <a href="./Ex06BalancedParentheses.java">Ex06BalancedParentheses.java</a></b></p>
 
 ### 7.	Recursive Fibonacci
 
@@ -149,6 +164,7 @@ If you want to figure out how to skip those unnecessary calculations, you can se
 
 ![](../../resources/L04StacksAndQueuesExercise/image1.png)
 
+<p><b>Solution: <a href="./Ex07Fibonacci.java">Ex07Fibonacci.java</a></b></p>
 
 ### 8.*Simple Text Editor
 
@@ -176,6 +192,9 @@ You are given an empty text. Your task is to implement 4 types of commands relat
 |:---|:-----|:-------|
 8<br>1 abc<br>3 3<br>2 3<br>1 xy<br>3 2<br>4<br>4<br>3 1|c<br>y<br>a|There are 8 operations. Initially, the text is empty.<br>Append "abc"<br>Print third character<br>Erase 3 characters<br>Append "xy"<br>Print second character<br>Undo last command - text is now ""<br>Undo last command - text is now "abc"<br>Print first character|
 
+<p><b>Solution: <a href="./Ex08SimpleTextEditor.java">Ex08SimpleTextEditor.java</a></b></p>
+<p><b>Solution: <a href="./Ex08SimpleTextEditor01.java">Ex08SimpleTextEditor01.java</a></b></p>
+
 ### 9.	*Infix to Postfix
 
 Mathematical expressions are written in an infix notations, for example "5 / ( 3 + 2 )". However, this kind of notation is not efficient for computer processing, as you first need to evaluate the expression inside the brackets, so there is a lot of back and forth movement. A more suitable approach is to convert it in the so-called postfix notations (also called Reverse Polish Notation), in which the expression is evaluated from left to right, for example "3 2 + 5 /".
@@ -200,6 +219,8 @@ Implement an algorithm that converts the mathematical expression from infix nota
 |7 + 13 / ( 12 - 4 )|7 13 12 4 - / +|
 |( 3 + x ) - y|3 x + y -|
 
+<p><b>Solution: <a href="./Ex09InfixToPostfix.java">Ex09InfixToPostfix.java</a></b></p>
+
 ### 10.	**Poisonous Plants
 
 You are given N plants in a garden. Each of these plants has been added with some amount of pesticide. After each day, if any plant has more pesticide than the plant at its left, being weaker (more GMO) than the left one, it dies. You are given the initial values of the pesticide and position of each plant. Print the number of days after which no plant dies, i.e. the time after which there are no plants with more pesticide content than the plant to their left.
@@ -219,5 +240,8 @@ You are given N plants in a garden. Each of these plants has been added with som
 |Input|	Output|Comments|
 |:---|:-----|:-------|
 |7<br>6 5 8 4 7 10 9|2|Initially all plants are alive.<br>Plants = {(6, 1), (5, 2), (8, 3), (4, 4), (7, 5), (10, 6), (9, 7)}<br>Plants[k] = (i, j) => jth plant has pesticide amount = i.<br>After the 1st day, 4 plants remain as plants 3, 5, and 6 die.<br>Plants = {(6, 1), (5, 2), (4, 4), (9, 7)}<br>After the 2nd day, 3 plants survive as plant 7 dies. Plants = {(6, 1), (5, 2), (4, 4)}<br>After the 3rd day, 3 plants survive and no more plants die.<br>Plants = {(6, 1), (5, 2), (4, 4)}<br>After the 2nd day the plants stop dying.|
+
+<p><b>Solution: <a href="./Ex10PoisonousPlants.java">Ex10PoisonousPlants.java</a></b></p>
+
 
 <p><b>Document with tasks description: <a href="../../resources/L04StacksAndQueuesExercise/01. Java-Advanced-Stacks-and-Queues-Exercises.docx">01. Java-Advanced-Stacks-and-Queues-Exercises.docx</a></b></p>
