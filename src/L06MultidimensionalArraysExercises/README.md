@@ -4,9 +4,8 @@ This document defines the exercises for "Java Advanced" course @ Software Univer
 
 ## **Matrices:**
 
-<details>
-<summary><b>1. Fill the Matrix</b>
-</summary>
+### **1. Fill the Matrix**
+
 <p>Filling a matrix in the regular way (top to bottom and left to right) is boring. 
 Write two methods that fill a matrix of size N x N in two different patterns.<p>
 <h3>Examples</h3>
@@ -48,11 +47,8 @@ Write two methods that fill a matrix of size N x N in two different patterns.<p>
 <li>Make a method for printing the matrix</li>
 </ul>
 <p><b>Solution: <a href="./Ex01FillTheMatrix.java">Ex01FillTheMatrix.java</a></b></p>
-</details>
 
-<details>
-<summary><b>2. Matrix of Palindromes</b>
-</summary>
+### **2. Matrix of Palindromes**
 
 Write a program to generate the following matrix of palindromes of 3 letters with r rows and c columns like the one in the examples below.
 - Rows define the first and the last letter: row 0 -> ‘a’, row 1 -> ‘b’, row 2 -> ‘c’, …
@@ -92,11 +88,7 @@ Write a program to generate the following matrix of palindromes of 3 letters wit
 
 <p><b>Solution: <a href="./Ex02MatrixPalindromes.java">Ex02MatrixPalindromes.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>3. Diagonal Difference</b>
-</summary>
+### **3. Diagonal Difference**
 
 Write a program that finds the difference between the sums of the square matrix diagonals (absolute value).
 
@@ -122,10 +114,7 @@ Input|Output|Comments|
 
 <p><b>Solution: <a href="./Ex03DiagonalDifference.java">Ex03DiagonalDifference.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>4. Maximal Sum</b></summary>
+### **4. Maximal Sum**
 
 Write a program that reads a rectangular integer matrix of size N x M and finds in it the square 3 x 3 that has maximal sum of its elements. 
 
@@ -144,10 +133,7 @@ Input|Output|Comments|
 
 <p><b>Solution: <a href="./Ex04MaximalSum.java">Ex04MaximalSum.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>5. Matrix shuffling</b></summary>
+### **5. Matrix shuffling**
 
 Write a program which reads a string matrix from the console and performs certain operations with its elements. User input is provided in a similar way like in the problems above – first you read the dimensions and then the data. 
 Your program should then receive commands in format: "swap row1 col1 row2c col2" where row1, row2, col1, col2 are coordinates in the matrix. In order for a command to be valid, it should start with the "swap" keyword along with four valid coordinates (no more, no less). You should swap the values at the given coordinates (cell [row1, col1] with cell [row2, col2]) and print the matrix at each step (thus you'll be able to check if the operation was performed correctly). 
@@ -166,10 +152,7 @@ Input|Output|
 
 <p><b>Solution: <a href="./Ex05MatrixShuffling.java">Ex05MatrixShuffling.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>6. String Matrix Rotation</b></summary>
+### **6. String Matrix Rotation</b></summary>**
 
 You are given a sequence of text lines. Assume these text lines form a matrix of characters (pad the missing positions with spaces to build a rectangular matrix). Write a program to rotate the matrix by 90, 180, 270, 360, … degrees. Print the result at the console as sequence of strings after receiving the “END” command.
 
@@ -225,11 +208,7 @@ Print at the console the rotated matrix as a sequence of text lines.
 
 <p><b>Solution: <a href="./Ex06StingMatrixRotation.java">Ex06StingMatrixRotation.java</a></b></p>
 
-</details>
-
-
-<details>
-<summary><b>7.	Crossfire </b></summary>
+### **7.	Crossfire**
 
 You will receive two integers which represent the dimensions of a matrix. Then, you must fill the matrix with increasing integers starting from 1, and continuing on every row, like this:<br>
 first row: 1, 2, 3, …, n<br>
@@ -283,10 +262,7 @@ The input ends when you receive the command “Nuke it from orbit”. When that 
 
 <p><b>Solution: <a href="./Ex07Crossfire.java">Ex07Crossfire.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>8.	The Heigan Dance</b></summary>
+### **8.	The Heigan Dance**
 
 At last, level 80. And what do level eighties do? Go raiding. This is where you are now – trying not to be wiped by the famous dance boss, Heigan the Unclean. The fight is pretty straightforward - dance around the Plague Clouds and Eruptions, and you’ll be just fine.
 Heigan’s chamber is a 15-by-15 two-dimensional array. The player always starts at the exact center. For each turn, Heigan uses a spell that hits a certain cell and the neighboring rows/columns. For example, if he hits (1,1), he also hits (0,0, 0,1, 0,2, 1,0 … 2,2). If the player’s current position is within the area of damage, the player tries to move. First, he tries to move up, if there’s damage/wall, he tries to move right, then down, then left. If he cannot move in any direction, because the cell is damaged or there is a wall, the player stays in place and takes the damage.
@@ -342,10 +318,7 @@ The player always starts at 18500 hit points; Heigan starts at 3,000,000 hit poi
 
 <p><b>Solution: <a href="./Ex08HeiganDance.java.java">Ex08HeiganDance.java.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>9.	*Parking System</b></summary>
+### **9. \*Parking System**
 
 The parking lot in front of SoftUni is one of the busiest in the country, and it’s a common cause for conflicts between the doorkeeper Bai Tzetzo and the students. The SoftUni team wants to proactively resolve all conflicts, so an automated parking system should be implemented. They are organizing a competition – Parkoniada – and the author of the best parking system will win a romantic dinner with RoYaL. That’s exactly what you’ve been dreaming of, so you decide to join in.
 The parking lot is a rectangular matrix where the first column is always free and all other cells are parking spots. A car can enter from any cell of the first column and then decides to go to a specific spot. If that spot is not free, the car searches for the closest free spot on the same row. If all the cells on that specific row are used, the car cannot park and leaves. If two free cells are located at the same distance from the initial parking spot, the cell which is closer to the entrance is preferred. A car can pass through a used parking spot.
@@ -391,10 +364,7 @@ Example: A car enters the parking at row 1. It wants to go to cell 2, 2 so it mo
 
 <p><b>Solution: <a href="./Ex09ParkingSystem.java">Ex09ParkingSystem.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>10.	*Radioactive Mutant Vampire Bunnies</b></summary>
+### **10. \*Radioactive Mutant Vampire Bunnies**
 
 Browsing through GitHub, you come across an old JS Basics teamwork game. It is about very nasty bunnies that multiply extremely fast. There’s also a player that has to escape from their lair. You really like the game so you decide to port it to C# because that’s your language of choice. The last thing that is left is the algorithm that decides if the player will escape the lair or not.
 First, you will receive a line holding integers N and M, which represent the rows and columns in the lair. Then you receive N strings that can only consist of “.”, “B”, “P”. The bunnies are marked with “B”, the player is marked with “P”, and everything else is free space, marked with a dot “.”. They represent the initial state of the lair. There will be only one player. Then you will receive a string with commands such as LLRRUUDD – where each letter represents the next move of the player (Left, Right, Up, Down).
@@ -441,10 +411,7 @@ Finally, print the final state of the lair with every row on a separate line. On
 
 <p><b>Solution: <a href="./Ex10RadioactiveMutantVampireBunnies.java">Ex10RadioactiveMutantVampireBunnies.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>11.	 Reverse Matrix Diagonals</b></summary>
+### **11.	 Reverse Matrix Diagonals**
 
 
 You are given a matrix (2D array) of integers. You have to print the matrix diagonal but in reversed order. Print each diagonal on new line.
@@ -489,10 +456,7 @@ All the integers will be in the range [1….1000]
 
 <p><b>Solution: <a href="./Ex11ReverseMatrixDiagonals.java">Ex11ReverseMatrixDiagonals.java</a></b></p>
 
-</details>
-
-<details>
-<summary><b>12.*** The Matrix</b></summary>
+### **12.\*\*\* The Matrix**
 
 You are given a matrix (2D array) of lowercase alphanumeric characters (a-z, 0-9), a starting position – defined by a start row startRow and a start column startCol – and a filling symbol fillChar. Let’s call the symbol originally at startRow and startCol the startChar. Write a program, which, starting from the symbol at startRow and startCol, changes to fillChar every symbol in the matrix which:
 - is equal to startChar AND
@@ -562,7 +526,5 @@ For some of the tests you can solve the problem with naive approach, however com
 
 <p><b>Solution: <a href="./Ex12TheMatrix.java">Ex12TheMatrix.java</a></b></p>
 <p><b>Solution: <a href="./Ex12TheMatrixRecursive.java">Ex12TheMatrixRecursive.java</a></b></p>
-
-</details>
 
 <p><b>Document with tasks description: <a href="../../resources/L06MultidimensionalArraysExercises/02. Java-Advanced-MultidimensionalArrays-Exercises.docx">02. Java-Advanced-MultidimensionalArrays-Exercises.docx</a></b></p>
