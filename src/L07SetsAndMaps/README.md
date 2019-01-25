@@ -27,6 +27,8 @@ Print the output with all car numbers which are in parking lot
 - Car numbers are unique
 - Use the methods isEmpty()
 
+<p><b>Solution: <a href="./Ex01ParkingLot.java">Ex01ParkingLot.java</a></b></p>
+
 ### 2. SoftUni Party
 
 There is a party in SoftUni. Many guests are invited and they are two type: VIP and regular. When guest come check if he/she exist in any of two reservation lists
@@ -41,6 +43,8 @@ Output have to all guest, who didn't come to the party (VIP must be first)
 |:-----|:-------|
 |7IK9Yo0h<br>9NoBUajQ<br>Ce8vwPmE<br>SVQXQCbc<br>tSzE5t0p<br>PARTY<br>9NoBUajQ<br>Ce8vwPmE<br>SVQXQCbc<br>END|2<br>7IK9Yo0h<br>tSzE5t0p|
 |m8rfQBvl<br>fc1oZCE0<br>UgffRkOn<br>7ugX7bm0<br>9CQBGUeJ<br>2FQZT3uC<br>dziNz78I<br>mdSGyQCJ<br>LjcVpmDL<br>fPXNHpm1<br>HTTbwRmM<br>B5yTkMQi<br>8N0FThqG<br>xys2FYzn<br>MDzcM9ZK<br>PARTY<br>2FQZT3uC<br>dziNz78I<br>mdSGyQCJ<br>LjcVpmDL<br>fPXNHpm1<br>HTTbwRmM<br>B5yTkMQi<br>8N0FThqG<br>m8rfQBvl<br>fc1oZCE0<br>UgffRkOn<br>7ugX7bm0<br>9CQBGUeJ<br>END|2<br>MDzcM9ZK<br>xys2FYzn|
+
+<p><b>Solution: <a href="./Ex02SoftUniParty.java">Ex02SoftUniParty.java</a></b></p>
 
 ### 3. **"Voina" - Number game**
 
@@ -64,7 +68,12 @@ Write program that:
 - Use Iterator<E> and next() for finding top number in decks
 - Think where to check if any player is without cards
 - When you find top number, be sure to remove it immediately
- 
+
+![](../../resources/L07SetsAndMaps/image1.png)
+
+
+<p><b>Solution: <a href="./Ex03Voina.java">Ex03Voina.java</a></b></p>
+
 ### **II. Maps**
 
 ### **4. Count Real Numbers**
@@ -77,7 +86,11 @@ Write a program that counts the occurrence of real numbers. The input is a singl
 |:-----|:-------|
 |-2.5 4 3 -2.5 -5.5 4 3 3 -2.5 3|-2.5 -> 3<br>4.0 -> 2<br>3.0 -> 4<br>-5.5 -> 1|
 |2.3 4.5 4.5 5.5 5.5 2.3 3.0 3.0 4.5 4.5 3.0 3.0 4.0 3.0 5.5 3.0 2.3 5.5 4.5 3.0|2.3 -> 3<br>4.5 -> 5<br>5.5 -> 4<br>3.0 -> 7<br>4.0 -> 1|
- 
+
+![](../../resources/L07SetsAndMaps/image2.png)
+
+<p><b>Solution: <a href="./Ex04CountRealNumbers.java">Ex04CountRealNumbers.java</a></b></p>
+
 ### **5. Average Students Grades**
 
 Write a program, which reads the name of a student and their grades and adds them to the student record, then prints grades along with their average grade – ordered the output by the names of the students.
@@ -102,6 +115,8 @@ On the first line N – the number of students, then on the next N lines student
 - Think of way to get the average grades for each student.
 - You can do that with an ordinary loop or with Stream API
 
+<p><b>Solution: <a href="./Ex05AverageStudentsGrades.java">Ex05AverageStudentsGrades.java</a></b></p>
+
 ### **6. Product Shop**
 
 Write a program that prints information about food shops in Sofia and the products they store. Until the "Revision" command you will receive an input in the format: "{shop}, {product}, {price}"
@@ -118,6 +133,9 @@ Examples
 |lidl, juice, 2.30<br>fantastico, apple, 1.20<br>kaufland, banana, 1.10<br>fantastico, grape, 2.20<br>Revision|fantastico-><br>Product: apple, Price: 1.2<br>Product: grape, Price: 2.2<br>kaufland-><br>Product: banana, Price: 1.1<br>lidl-><br>Product: juice, Price: 2.3|
 |tmarket, peanuts, 2.20<br>GoGrill, meatballs, 3.30<br>GoGrill, HotDog, 1.40<br>tmarket, sweets, 2.20<br>Revision|GoGrill-><br>Product: meatballs, Price: 3.3<br>Product: HotDog, Price: 1.4<br>tmarket-><br>Product: peanuts, Price: 2.2<br>Product: sweets, Price: 2.2|
 
+<p><b>Solution: <a href="./Ex06ProductShop.java">Ex06ProductShop.java</a></b></p>
+
+
 ### 7. Cities by Continent and Country**
 
 Write a program to read continents, countries and their cities, put them in a nested map and print them in the order of first appearance.
@@ -131,10 +149,17 @@ Write a program to read continents, countries and their cities, put them in a ne
 |8<br>Africa Somalia Mogadishu<br>Asia India Mumbai<br>Asia India Delhi<br>Europe France Paris<br>Asia India Nagpur<br>Europe Germany Hamburg<br>Europe Poland Gdansk<br>Europe Germany Danzig|Africa:<br>  Somalia -> Mogadishu<br>Asia:<br>  India -> Mumbai, Delhi, Nagpur<br>Europe:<br>  France -> Paris<br>  Germany -> Hamburg, Danzig<br>  Poland -> Gdansk|
 
 ### **Hints**
+
 - Use a nested Map (String  (Map ArrayList<String>)) 
 - Check if the continent exists before adding the country. If it doesn’t, add it to the dictionary.
 - Check if the country exists, before adding the city. If it doesn’t, add it to the dictionary.
+
+![](../../resources/L07SetsAndMaps/image3.png)
+
 - Pass through all key-value pairs in the Map and the values’ key-value pairs and print the results.
+
+<p><b>Solution: <a href="./Ex07CitiesByContinentAndCountry.java">Ex07CitiesByContinentAndCountry.java</a></b></p>
+
 
 ### **8. Academy Graduation**
 
@@ -157,3 +182,10 @@ Write a program that:
 - Think about proper type of map
 - Value can be array
 - Nested loop and one more variable will be need for average score
+
+![](../../resources/L07SetsAndMaps/image4.png)
+
+<p><b>Solution: <a href="./Ex08AcademyGraduation.java">Ex08AcademyGraduation.java</a></b></p>
+
+<p><b>Document with tasks description: <a href="../../resources/L07SetsAndMaps/03. Java-Advanced-Sets-and-Maps-Lab.docx">03. Java-Advanced-Sets-and-Maps-Lab.docx</a></b></p>
+
