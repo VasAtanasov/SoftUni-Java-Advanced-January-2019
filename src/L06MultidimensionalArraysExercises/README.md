@@ -565,4 +565,4 @@ For some of the tests you can solve the problem with naive approach, however com
 
 </details>
 
-<p><b>Document with tasks description: <a href="./02. Java-Advanced-MultidimensionalArrays-Exercises.docx">02. Java-Advanced-MultidimensionalArrays-Exercises.docx</a></b></p>
+<p><b>Document with tasks description: <a href="../../resources/L06MultidimensionalArraysExercises/02. Java-Advanced-MultidimensionalArrays-Exercises.docx">02. Java-Advanced-MultidimensionalArrays-Exercises.docx</a></b></p>
