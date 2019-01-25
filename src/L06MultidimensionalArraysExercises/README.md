@@ -316,7 +316,7 @@ The player always starts at 18500 hit points; Heigan starts at 3,000,000 hit poi
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./Ex08HeiganDance.java.java">Ex08HeiganDance.java.java</a></b></p>
+<p><b>Solution: <a href="./Ex08HeiganDance.java">Ex08HeiganDance.java</a></b></p>
 
 ### **9. \*Parking System**
 
