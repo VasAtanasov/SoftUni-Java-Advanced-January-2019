@@ -55,6 +55,9 @@ Submit in Judge only the output of the program.
 
 ![](../../resources/L09StreamsFilesDirectories/media/image5.png)
 
+<p><b>Solution: <a href="./Ex01ReadFile.java">Ex01ReadFile.java</a></b></p>
+
+
 ### 2.	Write to File
 
 Read the file named "input.txt" that is provided for this exercise and write all its content to a file while skipping any punctuation. Skip the following symbols: ',', '.', '!', '?'. 
@@ -90,6 +93,8 @@ Submit in Judge only the output of the program.
 
 ![](../../resources/L09StreamsFilesDirectories/media/image6.png)
 
+<p><b>Solution: <a href="./Ex02WriteToFile.java">Ex02WriteToFile.java</a></b></p>
+
  
 ### 3.	Copy Bytes
 
@@ -117,6 +122,9 @@ Write every space or new line as it is, e.g. as a space or a new line.
 - Get the value of every byte as string and then write its every digit one by one
 
 ![](../../resources/L09StreamsFilesDirectories/media/image7.png)
+
+<p><b>Solution: <a href="./Ex03CopyBytes.java">Ex03CopyBytes.java</a></b></p>
+
 
 ### 4.	Extract Integers
 
@@ -146,6 +154,8 @@ Submit in Judge only the output of the program.
 - Wrap a FileInputStream in a Scanner and use the methods, hasNext(), hasNextInt() and nextInt()
 
 ![](../../resources/L09StreamsFilesDirectories/media/image8.png)
+
+<p><b>Solution: <a href="./Ex04ExtractIntegers.java">Ex04ExtractIntegers.java</a></b></p>
 
 ### 5.	Write Every Third Line
 
@@ -177,6 +187,8 @@ Submit in Judge only the output of the program.
 
 ![](../../resources/L09StreamsFilesDirectories/media/image9.png)
  
+<p><b>Solution: <a href="./Ex05WriteEveryThirdLine.java">Ex05WriteEveryThirdLine.java</a></b></p>
+
 ### 6.	Sort Lines
 
 Read the file provided, named "input.txt" and sort all lines. Write text to another text file. Use Path and Files Classes. 
@@ -209,7 +221,9 @@ Submit in Judge only the output of the program.
 - To sort the list of strings use Collections.sort()
 
 ![](../../resources/L09StreamsFilesDirectories/media/image11.png)
- 
+
+<p><b>Solution: <a href="./Ex06SortLines.java">Ex06SortLines.java</a></b></p>
+
 ### 7.	List Files
 
 You are provided a folder named "Files-and-Streams". Create a program that lists the names and file sizes (in bytes) of all files that are placed directly in it (do not include files in nested folders).
@@ -236,6 +250,8 @@ Submit in Judge only the output of the program.
 ### Hints
 
 - Use the File class and its method listFiles()
+
+<p><b>Solution: <a href="./Ex07ListFiles.java">Ex07ListFiles.java</a></b></p>
 
 ### 8.	Nested Folders
 
@@ -264,6 +280,8 @@ Submit in Judge only the output of the program.
 ### Hints
 
 - Use the File class and its method listFiles()
+
+<p><b>Solution: <a href="./Ex08NestedFolders.java">Ex08NestedFolders.java</a></b></p>
 
 ### 9.	Serialize Custom Object
 
@@ -308,5 +326,7 @@ Serialize and deserilalize the instance created. When saved to a file the object
 - Use ObjectOutputStream to serialize the object:
 
 ![](../../resources/L09StreamsFilesDirectories/media/image16.png)
+
+<p><b>Solution: <a href="./Ex09SerializeCustomObject.java">Ex09SerializeCustomObject.java</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/L09StreamsFilesDirectories/04. Java-Advanced-Fiels-and-Directories-Lab.docx">04. Java-Advanced-Fiels-and-Directories-Lab.docx</a></b></p>
