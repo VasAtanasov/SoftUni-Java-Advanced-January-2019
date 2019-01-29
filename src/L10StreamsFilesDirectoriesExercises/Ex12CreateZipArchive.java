@@ -24,11 +24,7 @@ public class Ex12CreateZipArchive {
 
         String outputFilePath = System.getProperty("user.dir") + "/resources/" + OUTPUT_ZIP;
 
-        try (
-                FileOutputStream fos = new FileOutputStream(outputFilePath);
-                ZipOutputStream zipOut = new ZipOutputStream(fos)
-
-        ) {
+        try (ZipOutputStream zipOut = new ZipOutputStream(new FileOutputStream(outputFilePath))) {
             for (String srcFile : srcFiles) {
                 File fileToZip = new File(srcFile);
                 FileInputStream fis = new FileInputStream(fileToZip);
@@ -44,6 +40,4 @@ public class Ex12CreateZipArchive {
             }
         }
     }
-
-
 }
