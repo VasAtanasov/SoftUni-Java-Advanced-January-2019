@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Predicate;
+import java.util.stream.IntStream;
 
 public class Ex06FindEvensOrOdds {
     private static BufferedReader reader;
@@ -31,11 +32,11 @@ public class Ex06FindEvensOrOdds {
 
     private static String getStringResult(int lowerBound, int upperBound, Predicate<Integer> condition) {
         StringBuilder output = new StringBuilder();
-        for (int number = lowerBound; number <= upperBound; number++) {
+        IntStream.rangeClosed(lowerBound, upperBound).forEach(number -> {
             if (condition.test(number)) {
                 output.append(number).append(" ");
             }
-        }
+        });
         return output.toString().trim();
     }
 }
