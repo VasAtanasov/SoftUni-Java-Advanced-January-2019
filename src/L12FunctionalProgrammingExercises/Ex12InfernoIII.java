@@ -42,6 +42,7 @@ public class Ex12InfernoIII {
         return output.toString().trim();
     }
 
+    @SuppressWarnings("Duplicates")
     private static void getActions() throws IOException {
         String input;
         while (! "Forge".equals(input = reader.readLine())) {

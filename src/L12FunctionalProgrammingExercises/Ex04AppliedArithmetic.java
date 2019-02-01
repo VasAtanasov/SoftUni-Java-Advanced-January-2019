@@ -16,7 +16,7 @@ public class Ex04AppliedArithmetic {
 
     static {
         reader = new BufferedReader(new InputStreamReader(System.in));
-        actions = new HashMap<String, Function<Integer, Integer>>() {{
+        actions = new HashMap<>() {{
             put("add", number -> number += 1);
             put("subtract", number -> number -= 1);
             put("multiply", number -> number *= 2);

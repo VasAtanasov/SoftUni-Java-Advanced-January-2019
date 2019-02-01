@@ -23,8 +23,6 @@ public class Ex03CustomMinFunction {
                 .collect(Collectors.toCollection(ArrayList::new));
 
         System.out.println(getMin.apply(numbers));
-
-
     }
 
     private static Function<List<Integer>, Integer> getMin = integers -> {
