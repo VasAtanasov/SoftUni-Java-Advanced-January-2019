@@ -313,7 +313,7 @@ On the first line you are given the gems already inserted in the form of numbers
 Commands can be: "Exclude", "Reverse" or "Forge". The possible filter types are: "Sum Left", "Sum Right" and "Sum Left Right". All filter parameters will be an integer. 
 "Exclude" marks a gem for exclusion from the set if it meets a given condition. "Reverse" deletes a previous exclusion.
 "Sum Left" tests if a gems power summed with the gem standing to its left gives a certain value. "Sum Right" is the same but looks to a gems right peer. "Sum Left Right" sums the gems power with both its left and right neighbours.
-Note that changes on to the item are made only after forging. This means that the gems are fixed at their positions and every function occurs on the original set, so every gems power is considered, no matter if it is marked or not. 
+Note that changes on to the item are make only after forging. This means that the gems are fixed at their positions and every function occurs on the original set, so every gems power is considered, no matter if it is marked or not. 
 To better understand the problem, see the examples below:
 
 ### Examples
