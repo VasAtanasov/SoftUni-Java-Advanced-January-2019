@@ -1,4 +1,4 @@
-#Exercises: Functional Programming
+# Exercises: Functional Programming
 
 This document defines the exercises for "Java Advanced" course @ Software University.
 Please submit your solutions (source code) of all below described problems in Judge.
