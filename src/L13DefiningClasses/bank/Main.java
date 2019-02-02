@@ -23,7 +23,6 @@ public class Main {
         while (! "End".equals(input = reader.readLine())) {
             String[] tokens = input.split("\\s+");
             String command = tokens[0];
-            int id;
             switch (command) {
                 case "Create":
                     createAccount();
