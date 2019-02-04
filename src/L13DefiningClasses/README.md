@@ -95,7 +95,7 @@ Read a cars objects, add them to collection of your chose and the print each one
 </tbody>
 </table>
 
-<p><b>Solution: <a href="../../resources/L13DefiningClasses/car">Car Info</a></b></p>
+<p><b>Solution: <a href="./car">Car Constructors</a></b></p>
  
 ## Part II: Constructors
 
@@ -136,7 +136,7 @@ You have to add the car objects to a collection of your chose and print the data
 </tbody>
 </table>
 
-<p><b>Solution: <a href="../../resources/L13DefiningClasses/car">Car Constructors</a></b></p>
+<p><b>Solution: <a href="./car">Car Constructors</a></b></p>
 
 ### 3. Bank Account
 
@@ -208,4 +208,6 @@ Implement deposit() and getInterest()
 
 ![](../../resources/L13DefiningClasses/media/image16.png)
 
-<p><b>Solution: <a href="../../resources/L13DefiningClasses/car">Bank Account</a></b></p>
+<p><b>Solution: <a href="./bank">Bank Account</a></b></p>
+
+<p><b>Document with tasks description: <a href="../../resources/L13DefiningClasses/06. Java-OOP-Basics-Defining-Classes-Lab.docx">06. Java-OOP-Basics-Defining-Classes-Lab.docx</a></b></p>
