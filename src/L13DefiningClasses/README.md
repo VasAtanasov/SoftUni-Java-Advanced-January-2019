@@ -95,7 +95,7 @@ Read a cars objects, add them to collection of your chose and the print each one
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./car">Car Constructors</a></b></p>
+<p><b>Solution: <a href="./car">Car Info</a></b></p>
  
 ## Part II: Constructors
 
