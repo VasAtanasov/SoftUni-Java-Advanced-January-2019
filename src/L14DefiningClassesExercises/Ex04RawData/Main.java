@@ -23,12 +23,14 @@ public class Main {
         switch (cargoType) {
             case "fragile":
                 cars.stream()
-                        .filter(car -> car.getCargoType().equals("fragile") && car.isValidTierPressure())
+                        .filter(car -> car.getCargoType().equals("fragile"))
+                        .filter(Car::isValidTierPressure)
                         .forEach(System.out::println);
                 break;
             case "flamable":
                 cars.stream()
-                        .filter(car -> car.getCargoType().equals("flamable") && car.isValidEnginePower())
+                        .filter(car -> car.getCargoType().equals("flamable"))
+                        .filter(Car::isValidEnginePower)
                         .forEach(System.out::println);
                 break;
         }
