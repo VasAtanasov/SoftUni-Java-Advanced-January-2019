@@ -1,4 +1,4 @@
-#Exercises: Generics
+# Exercises: Generics
 
 This document defines the exercises for "Java OOP Advanced" course @ Software University.
 
@@ -222,9 +222,9 @@ For the print command you have probably used a for loop. Extend your custom list
 </tbody>
 </table>
 
-<p><b>Solution for problems 7 to 9: <a href="./CustomList">CustomList</a></b></p>
+<p><b>Solution for problems 7 to 9: <a href="./CustomList">Custom List</a></b></p>
 
-#### Note: Zip and submit the same file for the 3 tasks.
+#### Note: Zip and submit the same archive for the 3 tasks.
 
 ### Problem 10. \*Tuple
 
