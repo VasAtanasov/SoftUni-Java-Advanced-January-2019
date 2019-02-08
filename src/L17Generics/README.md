@@ -23,7 +23,7 @@ Adding should add on top of its contents. Remove should get the topmost element.
 
 Use the syntax Jar\<T> to create a generic class
 
-<p><b>Solution: <a href="./Ex01JarOfT"</a>Jar Of T</b></p>
+<p><b>Solution: <a href="./Ex01JarOfT">Jar Of T</a></b></p>
 
 
 ### 2. Generic Array Creator
@@ -39,7 +39,7 @@ The method should return an array with the given length and every element should
 
 ![](../../resources/L17Generics/media/image2.png)
 
-<p><b>Solution: <a href="./Ex02GenericArrayCreator"</a>Generic Array Creator</b></p>
+<p><b>Solution: <a href="./Ex02GenericArrayCreator">Generic Array Creator</a></b></p>
  
 ### 3. Generic Scale
 
@@ -57,7 +57,7 @@ The greater of the two elements is heavier. The method should return null if ele
 
 ![](../../resources/L17Generics/media/image3.png)
 
-<p><b>Solution: <a href="./Ex03GenericScale"</a>Generic Scale</b></p>
+<p><b>Solution: <a href="./Ex03GenericScale">Generic Scale</a></b></p>
  
 ### 4. List Utilities
 
@@ -74,6 +74,6 @@ The methods should throw IllegalArgumentException if an empty list is passed.
 
 ![](../../resources/L17Generics/media/image4.png)
 
-<p><b>Solution: <a href="./Ex04ListUtilities"</a>List Utilities</b></p>
+<p><b>Solution: <a href="./Ex04ListUtilities">List Utilities</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/L17Generics/08.Java-Advanced-Generics-Lab.docx">08.Java-Advanced-Generics-Lab.docx</a></b></p>
