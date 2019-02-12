@@ -76,4 +76,6 @@ The methods should throw IllegalArgumentException if an empty list is passed.
 
 <p><b>Solution: <a href="./Ex04ListUtilities">List Utilities</a></b></p>
 
+### NOTE: Packages must be removed before submission!
+
 <p><b>Document with tasks description: <a href="../../resources/L17Generics/08.Java-Advanced-Generics-Lab.docx">08.Java-Advanced-Generics-Lab.docx</a></b></p>
