@@ -54,7 +54,7 @@ Afterwards print the created pairs from the first added to the last, separated b
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./Ex01Socks">Socks</a></b></p>
+<p><b>Solution: <a href="./Ex01Socks.java">Socks</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/Z_DemoExam/01. Socks_Условие.docx">01. Socks_Условие.docx</a></b></p>
 
@@ -107,8 +107,8 @@ Print on the console each of the table`s rows; rows elements should be separated
 
 ... Use filters to temporarily hide some of the data in a table, so you can focus on the data you want ...
 
-<p><b>Solution: <a href="./Ex02ExcelFunctions">Excel Functions</a></b></p>
-<p><b>Solution: <a href="./Ex02ExcelFunctions01">Excel Functions - other solution</a></b></p>
+<p><b>Solution: <a href="./Ex02ExcelFunctions.java">Excel Functions</a></b></p>
+<p><b>Solution: <a href="./Ex02ExcelFunctions01.java">Excel Functions - other solution</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/Z_DemoExam/02. Excel Functions_Условие.docx">02. Excel Functions_Условие.docx</a></b></p>
 
