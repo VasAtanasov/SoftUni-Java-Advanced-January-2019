@@ -172,62 +172,53 @@ Here is a breakdown of judge tests:
 <tbody>
 <tr>
 <td>001</td>
-<td rowspan="4"></td>
+<td rowspan="4" align="center">1K</td>
 <td>Random</td>
 </tr>
 <tr>
 <td>002</td>
-<td align="center">1K</td>
 <td>Sorted</td>
 </tr>
 <tr>
 <td>003</td>
-<td></td>
 <td>Reversed</td>
 </tr>
 <tr>
 <td>004</td>
-<td></td>
 <td>Duplicate</td>
 </tr>
 <tr>
 <td>005</td>
-<td rowspan="4"></td>
+<td rowspan="4" align="center">10K</td>
 <td>Random</td>
 </tr>
 <tr>
 <td>006</td>
-<td align="center">10K</td>
 <td>Sorted</td>
 </tr>
 <tr>
 <td>007</td>
-<td></td>
 <td>Reversed</td>
 </tr>
 <tr>
 <td>008</td>
-<td></td>
 <td>Duplicate</td>
 </tr>
 <tr>
 <td>009</td>
-<td rowspan="4"></td>
+<td rowspan="4" align="center">100K</td>
 <td>Random</td>
 </tr>
 <tr>
 <td>010</td>
-<td align="center">100K</td>
 <td>Sorted</td>
 </tr>
 <tr>
 <td>011</td>
-<td></td>
 <td>Reversed</td>
 </tr>
 <tr>
 <td>012</td>
-<td></td>
 <td>Duplicate</td>
 </tr>
 </tbody>
