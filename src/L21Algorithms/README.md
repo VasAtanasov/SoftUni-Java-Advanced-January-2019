@@ -36,7 +36,7 @@ Write a recursive method. It will take as arguments the input array and the curr
 - The method should return the current element + the sum of all next elements (obtained by recursively calling it).
 - The recursion should stop when there are no more elements in the array.
 
-<p><b>Solution: <a href="./Ex01RecursiveArraySum">Recursive Array Sum</a></b></p>
+<p><b>Solution: <a href="./Ex01RecursiveArraySum.java">Recursive Array Sum</a></b></p>
 
 ### 2. Recursive Factorial
 
@@ -72,7 +72,7 @@ Write a recursive method. It will take as arguments an integer number.
 - The method should return the current element * the result of calculating factorial of current element - 1 (obtained by recursively calling it).
 - The recursion should stop when there are no more elements in the array.
 
-<p><b>Solution: <a href="./Ex02RecursiveFactorial">Recursive Factorial</a></b></p>
+<p><b>Solution: <a href="./Ex02RecursiveFactorial.java">Recursive Factorial</a></b></p>
 
 ### 3. Sum of Coins
 
@@ -123,7 +123,7 @@ For this problem, a greedy algorithm will attempt to take the best possible coin
 
 There may be a different amount of coins to take for each value. In one of the examples above we had a very large desired sum and relatively small coin values, which means we’ll need to take a lot of coins. It would not be efficient (and may even cause an Exception) if we return the result as a List<Integer>; a more practical way to do it is to use a Map<Integer, Integer> where the keys are the coin values and the values are the number of coins to take for the specified coin value. Therefore, in the second example (coin values = { 1 }, sum = 42), instead of returning a list with 42 elements in it, we’ll return a dictionary with a single key-value pair: 1 => 42.
 
-<p><b>Solution: <a href="./Ex03SumOfCoins">Sum of Coins</a></b></p>
+<p><b>Solution: <a href="./Ex03SumOfCoins.java">Sum of Coins</a></b></p>
 
 ### 4. Sorting
 
@@ -233,7 +233,7 @@ Here is a breakdown of judge tests:
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./Ex04Sorting">Sorting</a></b></p>
+<p><b>Solution: <a href="./Ex04Sorting.java">Sorting</a></b></p>
 
 ### 5. Searching
 
@@ -266,6 +266,6 @@ Read a sequence of numbers on the first line and a single number on the second f
 </tbody>
 </table>
 
-<p><b>Solution: <a href="./Ex05Searching">Searching</a></b></p>
+<p><b>Solution: <a href="./Ex05Searching.java">Searching</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/L21Algorithms/10. Workshop-Basic-Algorithms-Lab.docx">10. Workshop-Basic-Algorithms-Lab.docx</a></b></p>
