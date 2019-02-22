@@ -83,7 +83,7 @@ Read commands for printing, ‘till you reach the command "End"
 <tbody>
 <tr>
 <td>Cardiology Petar Petrov Ventsi<br>Oncology Ivaylo Kenov Valio<br>Emergency Mariq Mircheva Simo<br>Cardiology Genka Shikerova Simon<br>Emergency Ivaylo Kenov NuPogodi<br>Cardiology Gosho Goshov Esmeralda<br>Oncology Gosho Goshov Cleopatra<br>Output<br>Ivaylo Kenov <br>End</td>
-NuPogodi<br>Valio
+<td>NuPogodi<br>Valio</td>
 </tr>
 </tbody>
 </table>
