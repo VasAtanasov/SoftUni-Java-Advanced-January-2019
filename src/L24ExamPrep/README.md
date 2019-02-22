@@ -107,7 +107,7 @@ A standard room looks like this:
 <tbody>
 <tr>
 <td>......N...<br>b.........<br>..d.......<br>......d...<br>.....S....</td>
-<td>S  Sam, the player character<br>b/d  left/right-facing patrolling enemy<br>N  Nikoladze<br>.  Empty space</td>
+<td>S -> Sam, the player character<br>b/d -> left/right-facing patrolling enemy<br>N -> Nikoladze<br>. -> Empty space</td>
 </tr>
 </tbody>
 </table>
