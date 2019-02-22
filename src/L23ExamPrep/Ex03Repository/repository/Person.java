@@ -1,4 +1,4 @@
-package Z_DemoExam.Ex03Repository.repository;
+package L23ExamPrep.Ex03Repository.repository;
 
 public class Person {
     private String name;

@@ -1,7 +1,7 @@
-package Z_DemoExam.Ex03Repository;
+package L23ExamPrep.Ex03Repository;
 
-import Z_DemoExam.Ex03Repository.repository.Person;
-import Z_DemoExam.Ex03Repository.repository.Repository;
+import L23ExamPrep.Ex03Repository.repository.Person;
+import L23ExamPrep.Ex03Repository.repository.Repository;
 
 public class Main {
     public static void main(String[] args) {

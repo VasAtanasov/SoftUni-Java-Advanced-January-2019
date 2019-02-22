@@ -56,7 +56,7 @@ Afterwards print the created pairs from the first added to the last, separated b
 
 <p><b>Solution: <a href="./Ex01Socks.java">Socks</a></b></p>
 
-<p><b>Document with tasks description: <a href="../../resources/Z_DemoExam/01. Socks_Условие.docx">01. Socks_Условие.docx</a></b></p>
+<p><b>Document with tasks description: <a href="../../resources/L23ExamPrep/01. Socks_Условие.docx">01. Socks_Условие.docx</a></b></p>
 
 ## Problem 2. Excel Functions
 
@@ -110,7 +110,7 @@ Print on the console each of the table`s rows; rows elements should be separated
 <p><b>Solution: <a href="./Ex02ExcelFunctions.java">Excel Functions</a></b></p>
 <p><b>Solution: <a href="./Ex02ExcelFunctions01.java">Excel Functions - other solution</a></b></p>
 
-<p><b>Document with tasks description: <a href="../../resources/Z_DemoExam/02. Excel Functions_Условие.docx">02. Excel Functions_Условие.docx</a></b></p>
+<p><b>Document with tasks description: <a href="../../resources/L23ExamPrep/02. Excel Functions_Условие.docx">02. Excel Functions_Условие.docx</a></b></p>
 
 ## Problem 3. Repository
 
@@ -118,7 +118,7 @@ Print on the console each of the table`s rows; rows elements should be separated
 
 For this problem you should create a new package named "repository", which should hold inside the two classes both Person and Repository.  The Main class can also be inside this package however it is not a must it may also be outside the package. Your project structure should look like that:
 
-![](../../resources/Z_DemoExam/image1.png)
+![](../../resources/L23ExamPrep/image1.png)
 
 ### **Pay attention to name the package, all the classes, their fields and methods exactly the same way they are presented in the following document. It is also important to keep the project structure as described above.**
 
@@ -225,4 +225,4 @@ Sample code usage
 
 <p><b>Solution: <a href="./Ex03Repository">Repository</a></b></p>
 
-<p><b>Document with tasks description: <a href="../../resources/Z_DemoExam/03. Repository_Условие.docx">03. Repository_Условие.docx</a></b></p>
+<p><b>Document with tasks description: <a href="../../resources/L23ExamPrep/03. Repository_Условие.docx">03. Repository_Условие.docx</a></b></p>

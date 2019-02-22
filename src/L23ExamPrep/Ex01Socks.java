@@ -1,4 +1,4 @@
-package Z_DemoExam;
+package L23ExamPrep;
 
 import java.io.BufferedReader;
 import java.io.IOException;
