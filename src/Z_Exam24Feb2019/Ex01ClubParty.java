@@ -39,13 +39,13 @@ public class Ex01ClubParty {
     private static void removeOverflowedHalls(List<String> toRemove) {
         for (String hall : toRemove) {
             System.out.println(
-                    String.format("%s -> %s", hall, halls
-                            .remove(hall)
-                            .toString()
-                            .replaceAll("[\\[\\]]", "")
-                    )
+                    String.format("%s -> %s", hall, listToString(halls.remove(hall)))
             );
         }
+    }
+
+    private static String listToString(List<Integer> hall) {
+        return hall.toString().replaceAll("[\\[\\]]", "");
     }
 
     private static void accommodateReservations(int reservations, List<String> toRemove) {

@@ -275,5 +275,3 @@ Submit single .zip file, containing heroRepository package, with the three class
 <p><b>Solution: <a href="./heroRepository">HeroRepository</a></b></p>
 
 <p><b>Document with tasks description: <a href="../../resources/Z_Exam24Feb2019/03. Hero Repository_Условие.docx">03. Hero Repository_Условие.docx</a></b></p>
-
-
