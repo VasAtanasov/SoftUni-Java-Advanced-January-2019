@@ -38,10 +38,12 @@ public class Ex01ClubParty {
 
     private static void removeOverflowedHalls(List<String> toRemove) {
         for (String hall : toRemove) {
-            System.out.println(
-                    String.format("%s -> %s", hall, listToString(halls.remove(hall)))
-            );
+            System.out.println(getResult(hall));
         }
+    }
+
+    private static String getResult(String hall) {
+        return String.format("%s -> %s", hall, listToString(halls.remove(hall)));
     }
 
     private static String listToString(List<Integer> hall) {
