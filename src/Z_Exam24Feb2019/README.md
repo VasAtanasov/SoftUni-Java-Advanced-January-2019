@@ -120,6 +120,7 @@ When only one of the players is left alive on the field the game ends.
 ## Problem 3. HeroRepository
 
 ### I. Project Structure
+
 For this problem you should create a new package named "heroRepository",  which should hold inside the classes   Item , Hero and HeroRepository.  The Main class can also be inside this package however it is not a must it may also be outside the package. Your project structure should look like that:
 
 ![](../../resources/Z_Exam24Feb2019/image1.png)
@@ -130,11 +131,14 @@ For this problem you should create a new package named "heroRepository",  which 
 
 Create Java class Item that has the following structure: 
 
-    public class Item {
-        // TODO: implement this class
-    }
-    
+ ```java
+public class Item {
+    // TODO: implement this class
+}
+```
+
 1 Fields
+
 - strength:  int
 - agility:  int
 - intelligence:  int
@@ -154,12 +158,15 @@ The class constructor should receive all the fields parameters (strength, agilit
         "  *  Intelligence: {Intelligence Value}"
 
 ### III. Hero
+
 Create Java class  Hero that has the following structure:
 
-	public class Hero {
-    // TODO: implement this class
-    }
- 
+ ```java
+public class Hero {
+// TODO: implement this class
+}
+ ```
+
 1 Fields
 
 - name:  Strinig
@@ -184,9 +191,11 @@ The class constructor should receive all the fields parameters (name, level,  it
 
 Write a Java class HeroRepository that has data (a collection which stores the entity Hero). All entities inside the repository have the same properties.
 
-    class HeroRepository {
-        // TODO: implement this class
-    }
+ ```java
+class HeroRepository {
+    // TODO: implement this class
+}
+```
 
 1 Fields
 
@@ -208,58 +217,60 @@ The class constructor should initialize the data with a new instance of the coll
 
 This is an example how the HeroRepository class is intended to be used. 
 
-Sample code usage
+### Sample code usage
 
-    //Initialize the repository
-    HeroRepository repository = new HeroRepository();
-    //Initialize entity
-    Item item = new Item(23, 35, 48);
-    //Print Item
-    System.out.println(item);
-    
-    //Item:
-    //  * Strength: 23
-    //  * Agility: 35 
-    //  * Intelligence: 48 
-    
-    //Initialize entity
-    Hero hero = new Hero("Hero Name", 24, item);
-    //Print Hero
-    System.out.println(hero);
-    
-    //Hero: Hero Name – 24
-    //Item:
-    //  * Strength: 23
-    //  * Agility: 35 
-    //  * Intelligence: 48 
-    
-    //Add Hero
-    repository.add(hero); 
-    //Remove Hero
-    repository.remove("Hero Name"); 
-    
-    Item secondItem = new Item(100, 20, 13);
-    Hero secondHero = new Hero("Second Hero Name", 125, secondItem);
-    
-    //Add Heroes
-    repository.add(hero); 
-    repository.add(secondHero); 
-    
-    Hero heroStrength = repository.getHeroWithHighestStrength(); //returns secondHero
-    Hero heroAbility = repository.getHeroWithHighestAgility(); //returns hero
-    Hero heroIntelligence = repository.getHeroWithHighestIntelligence(); //returns hero
-    
-    System.out.println(repository);
-    //Hero: Hero Name – 24
-    //Item:
-    //  * Strength: 23
-    //  * Agility: 35 
-    //  * Intelligence: 48 
-    //Hero: Second Hero Name – 125
-    //Item:
-    //  * Strength: 100
-    //  * Agility: 20 
-    //  * Intelligence: 13
+ ```java
+//Initialize the repository
+HeroRepository repository = new HeroRepository();
+//Initialize entity
+Item item = new Item(23, 35, 48);
+//Print Item
+System.out.println(item);
+
+//Item:
+//  * Strength: 23
+//  * Agility: 35 
+//  * Intelligence: 48 
+
+//Initialize entity
+Hero hero = new Hero("Hero Name", 24, item);
+//Print Hero
+System.out.println(hero);
+
+//Hero: Hero Name – 24
+//Item:
+//  * Strength: 23
+//  * Agility: 35 
+//  * Intelligence: 48 
+
+//Add Hero
+repository.add(hero); 
+//Remove Hero
+repository.remove("Hero Name"); 
+
+Item secondItem = new Item(100, 20, 13);
+Hero secondHero = new Hero("Second Hero Name", 125, secondItem);
+
+//Add Heroes
+repository.add(hero); 
+repository.add(secondHero); 
+
+Hero heroStrength = repository.getHeroWithHighestStrength(); //returns secondHero
+Hero heroAbility = repository.getHeroWithHighestAgility(); //returns hero
+Hero heroIntelligence = repository.getHeroWithHighestIntelligence(); //returns hero
+
+System.out.println(repository);
+//Hero: Hero Name – 24
+//Item:
+//  * Strength: 23
+//  * Agility: 35 
+//  * Intelligence: 48 
+//Hero: Second Hero Name – 125
+//Item:
+//  * Strength: 100
+//  * Agility: 20 
+//  * Intelligence: 13
+```
 
 ### Constraints
 
